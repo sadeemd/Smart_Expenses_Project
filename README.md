@@ -1,10 +1,10 @@
 # Smart Expenses Project
 
-A practical learning project to build data skills using Python.
+A practical learning project to build data and automation skills using Python.
 
 ## Structure
-- `labs/` : Daily practice notebooks (NumPy, Pandas, etc.)
-- `project/` : The actual Smart Expenses application code and resources
+- `labs/` : Daily practice labs (NumPy, Pandas, etc.)
+- `project/` : The main Smart Expenses application
 
 ## Progress
-- Day 1: NumPy Basics ✅
+- Day 01: NumPy Basics ✅
