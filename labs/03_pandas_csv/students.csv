@@ -1,0 +1,16 @@
+student_id,name,age,gender,math,english,science
+1,Ali,20,M,88,75,91
+2,Sara,19,F,92,89,95
+3,Omar,21,M,70,65,
+4,Zainab,20,F,85,,88
+5,Hassan,,M,60,58,62
+6,Noor,22,F,99,94,96
+7,Mohammed,20,M,45,55,50
+8,Rana,19,F,77,73,79
+9,Yousef,21,M,82,80,78
+10,Maryam,20,F,66,70,
+11,Ahmed,23,M,90,85,88
+12,Lina,19,F,72,74,71
+13,Karim,20,M,,60,65
+14,Huda,22,F,84,83,82
+15,Saif,21,M,55,,59
