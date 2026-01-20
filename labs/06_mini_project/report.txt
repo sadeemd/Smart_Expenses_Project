@@ -1,0 +1,5 @@
+Rows: 10
+Total amount: 72.50
+Average expense: 7.25
+Highest expense: 15.00
+Top category: Food (50.00)
