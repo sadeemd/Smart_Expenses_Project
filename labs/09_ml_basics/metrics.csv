@@ -1,0 +1,3 @@
+model,MAE,MSE,R2
+baseline_mean,12.5,156.640625,-0.0024999999999999467
+linear_regression,1.25,1.953125,0.9875
