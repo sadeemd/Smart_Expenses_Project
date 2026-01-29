@@ -1,0 +1,31 @@
+date,type,category,amount,payment_method,description
+2026-01-01,income,Income,1200000,transfer,Monthly salary
+2026-01-01,expense,Bills,85000,cash,Internet subscription
+2026-01-02,expense,Food,18000,cash,Grocery items
+2026-01-02,expense,Transport,5000,cash,Taxi ride
+2026-01-03,expense,Shopping,25000,card,House supplies
+2026-01-03,expense,Food,12000,cash,Breakfast
+2026-01-04,expense,Transport,8000,cash,Fuel
+2026-01-04,expense,Bills,30000,transfer,Mobile recharge
+2026-01-05,expense,Food,22000,cash,Grocery refill
+2026-01-05,expense,Shopping,40000,card,Clothes
+2026-01-06,expense,Transport,6000,cash,Taxi
+2026-01-06,expense,Bills,15000,online,Streaming subscription
+2026-01-07,expense,Food,14000,cash,Lunch
+2026-01-07,income,Income,75000,cash,Side job
+2026-01-08,expense,Shopping,18000,cash,Stationery
+2026-01-08,expense,Transport,9000,cash,Fuel
+2026-01-09,expense,Food,26000,cash,Family groceries
+2026-01-09,expense,Bills,50000,transfer,Electricity bill
+2026-01-10,expense,Transport,4000,cash,Bus fare
+2026-01-10,expense,Food,11000,cash,Snacks
+2026-01-11,expense,Shopping,65000,card,Small electronics
+2026-01-11,expense,Bills,20000,transfer,Water bill
+2026-01-12,expense,Food,17000,cash,Grocery items
+2026-01-12,expense,Transport,7000,cash,Taxi
+2026-01-13,income,Income,50000,transfer,Refund
+2026-01-13,expense,Shopping,23000,cash,Gift
+2026-01-14,expense,Food,15000,cash,Dinner
+2026-01-14,expense,Bills,10000,online,Cloud storage
+2026-01-15,expense,Transport,12000,cash,Fuel
+2026-01-15,expense,Food,19000,cash,Grocery items
