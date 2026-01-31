@@ -1,0 +1,31 @@
+date,type,category,amount,payment_method,description,day_name,week,is_weekend,signed_amount
+2026-01-01,income,Income,1200000,transfer,Monthly salary,Thursday,1,False,1200000
+2026-01-01,expense,Bills,85000,cash,Internet subscription,Thursday,1,False,-85000
+2026-01-02,expense,Food,18000,cash,Grocery items,Friday,1,False,-18000
+2026-01-02,expense,Transport,5000,cash,Taxi ride,Friday,1,False,-5000
+2026-01-03,expense,Shopping,25000,card,House supplies,Saturday,1,True,-25000
+2026-01-03,expense,Food,12000,cash,Breakfast,Saturday,1,True,-12000
+2026-01-04,expense,Transport,8000,cash,Fuel,Sunday,1,True,-8000
+2026-01-04,expense,Bills,30000,transfer,Mobile recharge,Sunday,1,True,-30000
+2026-01-05,expense,Food,22000,cash,Grocery refill,Monday,1,False,-22000
+2026-01-05,expense,Shopping,40000,card,Clothes,Monday,1,False,-40000
+2026-01-06,expense,Transport,6000,cash,Taxi,Tuesday,1,False,-6000
+2026-01-06,expense,Bills,15000,online,Streaming subscription,Tuesday,1,False,-15000
+2026-01-07,expense,Food,14000,cash,Lunch,Wednesday,1,False,-14000
+2026-01-07,income,Income,75000,cash,Side job,Wednesday,1,False,75000
+2026-01-08,expense,Transport,9000,cash,Fuel,Thursday,2,False,-9000
+2026-01-08,expense,Shopping,18000,cash,Stationery,Thursday,2,False,-18000
+2026-01-09,expense,Food,26000,cash,Family groceries,Friday,2,False,-26000
+2026-01-09,expense,Bills,50000,transfer,Electricity bill,Friday,2,False,-50000
+2026-01-10,expense,Transport,4000,cash,Bus fare,Saturday,2,True,-4000
+2026-01-10,expense,Food,11000,cash,Snacks,Saturday,2,True,-11000
+2026-01-11,expense,Shopping,65000,card,Small electronics,Sunday,2,True,-65000
+2026-01-11,expense,Bills,20000,transfer,Water bill,Sunday,2,True,-20000
+2026-01-12,expense,Food,17000,cash,Grocery items,Monday,2,False,-17000
+2026-01-12,expense,Transport,7000,cash,Taxi,Monday,2,False,-7000
+2026-01-13,income,Income,50000,transfer,Refund,Tuesday,2,False,50000
+2026-01-13,expense,Shopping,23000,cash,Gift,Tuesday,2,False,-23000
+2026-01-14,expense,Food,15000,cash,Dinner,Wednesday,2,False,-15000
+2026-01-14,expense,Bills,10000,online,Cloud storage,Wednesday,2,False,-10000
+2026-01-15,expense,Transport,12000,cash,Fuel,Thursday,3,False,-12000
+2026-01-15,expense,Food,19000,cash,Grocery items,Thursday,3,False,-19000

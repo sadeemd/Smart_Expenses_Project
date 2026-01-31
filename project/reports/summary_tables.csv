@@ -1,0 +1,16 @@
+table,metric,value,category,expense_total,rank,date,amount,payment_method,description,week,income,expense,net_total
+totals,income_total,1325000,,,,,,,,,,,
+totals,expense_total,586000,,,,,,,,,,,
+totals,net_profit,739000,,,,,,,,,,,
+expense_by_category,,,Bills,210000,,,,,,,,,
+expense_by_category,,,Shopping,171000,,,,,,,,,
+expense_by_category,,,Food,154000,,,,,,,,,
+expense_by_category,,,Transport,51000,,,,,,,,,
+top5_expenses,,,Bills,,1,1/1/2026,85000,cash,Internet subscription,1,,,
+top5_expenses,,,Shopping,,2,1/11/2026,65000,card,Small electronics,2,,,
+top5_expenses,,,Bills,,3,1/9/2026,50000,transfer,Electricity bill,2,,,
+top5_expenses,,,Shopping,,4,1/5/2026,40000,card,Clothes,1,,,
+top5_expenses,,,Bills,,5,1/4/2026,30000,transfer,Mobile recharge,1,,,
+weekly_table,,,,,,,,,,1,1275000,280000,995000
+weekly_table,,,,,,,,,,2,50000,275000,-225000
+weekly_table,,,,,,,,,,3,0,31000,-31000
