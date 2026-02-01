@@ -71,3 +71,139 @@ A simple weekly net total report:
 - `signed_amount` rule:
   - income → +amount
   - expense → -amount
+
+------------
+
+# Week 3 — Day 17: Dashboard 1 — Income vs Expense Reports
+
+## Goal
+Generate **summary report tables** from the cleaned expenses dataset and save them into a single CSV file.
+
+## Data Source
+This dashboard uses the cleaned dataset:
+- `project/data/clean_expenses.csv`
+
+## Output (Deliverable)
+A single CSV file containing the final report tables:
+- `project/reports/summary_tables.csv`
+
+---
+
+## What this task produces
+
+### 1) Income vs Expense (Totals)
+A quick comparison of total income and total expense.
+
+### 2) Net Total (Profit/Loss)
+A single value showing:
+- `net_total = total_income - total_expense`
+
+### 3) Totals by Category
+A summary table of totals grouped by `category`
+- (You can filter to expenses only, or include both types depending on your design)
+
+### 4) Top 5 Expenses
+The five highest expense records (largest amounts).
+
+### 5) Weekly Summary (Mini Challenge)
+A weekly totals table (e.g., per week period) for tracking trends over time.
+
+---
+
+## Folder Structure
+
+Smart_Expenses_Project/
+└─ project/
+   ├─ data/
+   │  └─ clean_expenses.csv
+   ├─ reports/
+   │  ├─ weekly_summary.csv          (from Day 16)
+   │  └─ summary_tables.csv          (this task)
+   └─ src/
+      └─ (your notebook/script)
+
+---
+
+## Notes
+- This dashboard is built on **clean_expenses.csv** (not the raw file).
+- Keep the output file name stable (`summary_tables.csv`) for consistency and GitHub tracking.
+- If your categories contain extra spaces, trimming them before grouping improves results.
+
+## Checklist
+- [ ] Generated final summary tables
+- [ ] Saved output to `project/reports/summary_tables.csv`
+- [ ] Verified the file opens correctly and contains all required sections
+- [ ] Committed and pushed changes to GitHub
+
+
+------------
+
+
+# Week 3 — Day 18: Dashboard 2 (Plots + README)
+
+This task creates reporting charts from the cleaned dataset and saves them as images:
+1) Daily spending trend (line)
+2) Spending by category (bar)
+3) Weekly spending trend (line)
+4) Category share (pie) — optional
+
+---
+
+## Folder Structure (Updated)
+
+Smart_Expenses_Project/
+└─ project/
+   ├─ data/
+   │  ├─ expenses.csv
+   │  └─ clean_expenses.csv
+   ├─ reports/
+   │  └─ weekly_summary.csv
+   ├─ plots/
+   │  ├─ daily_line.png
+   │  ├─ category_bar.png
+   │  ├─ weekly_trend.png
+   │  └─ category_pie.png   (optional)
+   └─ src/
+      ├─ Project_Expenses_cleaning.ipynb
+      └─ dashboard2_plots.ipynb
+
+---
+
+## Data Source
+The notebook reads from:
+- `project/data/clean_expenses.csv`
+
+---
+
+## Plots
+
+### 1) Daily spending trend (Line)
+Shows total spending per day.
+![Daily Line](plots/daily_line.png)
+
+### 2) Spending by category (Bar)
+Compares total spending across categories.
+![Category Bar](plots/category_bar.png)
+
+### 3) Weekly spending trend (Line)
+Shows total spending per week.
+![Weekly Trend](plots/weekly_trend.png)
+
+### 4) Category share (Pie — optional)
+Shows each category as a percentage of total spending.
+![Category Pie](plots/category_pie.png)
+
+---
+
+## How to Run
+Open and run:
+- `project/src/dashboard2_plots.ipynb`
+
+Outputs are saved to:
+- `project/plots/*.png`
+
+---
+
+## Notes
+- Plots are generated from the **cleaned** dataset, not the raw CSV.
+- If image links don’t render on GitHub, make sure the filenames in `plots/` match the README exactly.
