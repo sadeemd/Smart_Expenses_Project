@@ -207,3 +207,67 @@ Outputs are saved to:
 ## Notes
 - Plots are generated from the **cleaned** dataset, not the raw CSV.
 - If image links don’t render on GitHub, make sure the filenames in `plots/` match the README exactly.
+
+--------------------
+
+# Week 3 — Day 19: Forecast 1 (Baseline)
+
+This task builds a simple baseline forecast for the next week using weekly aggregation and a single feature (`week_index`).  
+It trains a **LinearRegression** model, evaluates it, then predicts the **next week total**.
+
+---
+
+## Folder Structure
+
+Smart_Expenses_Project/
+└─ project/
+   ├─ data/
+   │  └─ clean_expenses.csv
+   ├─ reports/
+   │  └─ forecast_next_week.csv
+   └─ ml/
+      └─ forecast.ipynb
+
+---
+
+## Input
+
+- `data/clean_expenses.csv`
+- Required columns:
+  - `date`
+  - `signed_amount` (income = positive, expense = negative)
+
+---
+
+## Steps
+
+1) Aggregate transactions to weekly totals (`weekly_total`)
+2) Create a simple feature: `week_index` (0..N-1)
+3) Train a `LinearRegression` model
+4) Evaluate using a time-based split (last 1–2 weeks as test)
+5) Forecast the next week total
+
+---
+
+## Output
+
+- `reports/forecast_next_week.csv`
+  - `next_week_start`
+  - `forecast_weekly_total`
+
+---
+
+## How to Run
+
+Open the notebook:
+
+- `project/ml/forecast.ipynb`
+
+Run cells from top to bottom.
+
+---
+
+## Notes
+
+- This is a **baseline** model, so results depend on how many weeks you have.
+- For better accuracy later, add more features (month, rolling mean, seasonality) or use time-series models.
