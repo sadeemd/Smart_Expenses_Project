@@ -1,0 +1,5 @@
+model,mae_mean,mae_std,method
+Ridge(alpha=10.0),128291.675565703,12615.185678100484,TimeSeriesSplit(n_splits=3)
+Ridge(alpha=1.0),128794.53193706115,13335.01058748351,TimeSeriesSplit(n_splits=3)
+Lasso(alpha=0.1),128929.6468951254,13528.661025760108,TimeSeriesSplit(n_splits=3)
+Lasso(alpha=0.01),128929.6623413104,13528.693065096657,TimeSeriesSplit(n_splits=3)

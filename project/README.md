@@ -41,7 +41,6 @@ Smart_Expenses_Project/
 ## How to Run
 
 Open and run the notebook:
-
 - `project/src/Project_Expenses_cleaning.ipynb`
 
 The notebook reads from:
@@ -74,6 +73,7 @@ A simple weekly net total report:
 
 ------------
 
+
 # Week 3 — Day 17: Dashboard 1 — Income vs Expense Reports
 
 ## Goal
@@ -99,8 +99,7 @@ A single value showing:
 - `net_total = total_income - total_expense`
 
 ### 3) Totals by Category
-A summary table of totals grouped by `category`
-- (You can filter to expenses only, or include both types depending on your design)
+A summary table of totals grouped by `category`.
 
 ### 4) Top 5 Expenses
 The five highest expense records (largest amounts).
@@ -127,14 +126,12 @@ Smart_Expenses_Project/
 ## Notes
 - This dashboard is built on **clean_expenses.csv** (not the raw file).
 - Keep the output file name stable (`summary_tables.csv`) for consistency and GitHub tracking.
-- If your categories contain extra spaces, trimming them before grouping improves results.
 
 ## Checklist
 - [ ] Generated final summary tables
 - [ ] Saved output to `project/reports/summary_tables.csv`
 - [ ] Verified the file opens correctly and contains all required sections
 - [ ] Committed and pushed changes to GitHub
-
 
 ------------
 
@@ -210,6 +207,7 @@ Outputs are saved to:
 
 --------------------
 
+
 # Week 3 — Day 19: Forecast 1 (Baseline)
 
 This task builds a simple baseline forecast for the next week using weekly aggregation and a single feature (`week_index`).  
@@ -260,7 +258,6 @@ Smart_Expenses_Project/
 ## How to Run
 
 Open the notebook:
-
 - `project/ml/forecast.ipynb`
 
 Run cells from top to bottom.
@@ -268,6 +265,82 @@ Run cells from top to bottom.
 ---
 
 ## Notes
-
 - This is a **baseline** model, so results depend on how many weeks you have.
 - For better accuracy later, add more features (month, rolling mean, seasonality) or use time-series models.
+
+--------------------
+
+
+# Week 3 — Day 20: Forecast 2 (Ridge/Lasso + MAE Comparison)
+
+This task improves the forecasting workflow by:
+1) Training **Ridge** and **Lasso** regression models
+2) Comparing them using **MAE**
+3) Selecting the best model
+4) Saving the final forecast + a readable report
+
+Because weekly points can be limited in small datasets, this implementation uses:
+- **DAILY forecasting** (more data points)
+- Then **sums 7 daily predictions** to produce a next-week forecast
+
+---
+
+## Folder Structure
+
+Smart_Expenses_Project/
+└─ project/
+   ├─ data/
+   │  └─ clean_expenses.csv
+   ├─ reports/
+   │  ├─ models_comparison.csv
+   │  ├─ forecast_next_week.csv
+   │  └─ forecast_report.txt
+   └─ src/
+      ├─ forecast2.ipynb   (your notebook)
+      └─ forecast2.py      (optional if you keep a script)
+
+---
+
+## Inputs
+- `project/data/clean_expenses.csv`
+  - Required columns:
+    - `date`
+    - `signed_amount` (preferred) or `amount`
+
+---
+
+## What it produces (Deliverables)
+
+### 1) Model comparison table
+- `project/reports/models_comparison.csv`
+  - `model`
+  - `mae_mean`
+  - `mae_std`
+  - `method`
+
+### 2) Final next-week forecast (7 days + weekly total)
+- `project/reports/forecast_next_week.csv`
+  - `date`
+  - `predicted_daily_net`
+  - `predicted_week_total`
+
+### 3) Text report
+- `project/reports/forecast_report.txt`
+  - data points summary
+  - the comparison table
+  - best model
+  - best MAE
+  - predicted next-week total
+
+---
+
+## How to Run
+
+### Option A — Notebook
+Open and run:
+- `project/src/forecast2.ipynb`
+
+### Option B — Script (if used)
+From inside `project/`:
+```bash
+python src/forecast2.py

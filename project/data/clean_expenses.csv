@@ -1,31 +1,1248 @@
 date,type,category,amount,payment_method,description,day_name,week,is_weekend,signed_amount
+2025-01-01,income,Income,1200000,transfer,Monthly salary,Wednesday,1,False,1200000
+2025-01-01,expense,Shopping,65931,online,Gifts,Wednesday,1,False,-65931
+2025-01-01,expense,Bills,142976,transfer,Mobile recharge,Wednesday,1,False,-142976
+2025-01-01,expense,Food,11814,cash,Snacks,Wednesday,1,False,-11814
+2025-01-02,expense,Shopping,79996,cash,Personal items,Thursday,1,False,-79996
+2025-01-02,expense,Bills,39281,cash,Mobile recharge,Thursday,1,False,-39281
+2025-01-02,expense,Shopping,121294,cash,Electronics accessory,Thursday,1,False,-121294
+2025-01-03,expense,Transport,23226,card,Car maintenance,Friday,1,False,-23226
+2025-01-03,expense,Shopping,110746,cash,Clothes,Friday,1,False,-110746
+2025-01-04,expense,Food,60274,online,Coffee,Saturday,1,True,-60274
+2025-01-04,expense,Food,29061,cash,Restaurant meal,Saturday,1,True,-29061
+2025-01-04,expense,Bills,36833,cash,Mobile recharge,Saturday,1,True,-36833
+2025-01-05,expense,Transport,5637,cash,Taxi ride,Sunday,1,True,-5637
+2025-01-05,expense,Food,54793,transfer,Grocery items,Sunday,1,True,-54793
+2025-01-05,expense,Bills,73416,transfer,Mobile recharge,Sunday,1,True,-73416
+2025-01-06,expense,Transport,25316,cash,Taxi ride,Monday,1,False,-25316
+2025-01-06,expense,Food,52607,cash,Coffee,Monday,1,False,-52607
+2025-01-06,expense,Bills,98092,transfer,Water bill,Monday,1,False,-98092
+2025-01-06,expense,Food,37894,cash,Snacks,Monday,1,False,-37894
+2025-01-07,expense,Food,12527,cash,Vegetables & fruits,Tuesday,1,False,-12527
+2025-01-07,expense,Bills,112611,transfer,Mobile recharge,Tuesday,1,False,-112611
+2025-01-08,expense,Transport,18879,cash,Taxi ride,Wednesday,2,False,-18879
+2025-01-08,expense,Transport,29516,cash,Fuel,Wednesday,2,False,-29516
+2025-01-08,expense,Food,64552,cash,Vegetables & fruits,Wednesday,2,False,-64552
+2025-01-09,expense,Food,7556,transfer,Vegetables & fruits,Thursday,2,False,-7556
+2025-01-09,expense,Food,44523,cash,Snacks,Thursday,2,False,-44523
+2025-01-09,expense,Bills,151173,cash,Electricity bill,Thursday,2,False,-151173
+2025-01-09,expense,Transport,2635,cash,Car maintenance,Thursday,2,False,-2635
+2025-01-10,expense,Transport,15925,cash,Car maintenance,Friday,2,False,-15925
+2025-01-10,expense,Food,14139,cash,Restaurant meal,Friday,2,False,-14139
+2025-01-10,expense,Transport,21143,cash,Car maintenance,Friday,2,False,-21143
+2025-01-10,expense,Food,62541,cash,Grocery items,Friday,2,False,-62541
+2025-01-11,expense,Shopping,134970,online,Clothes,Saturday,2,True,-134970
+2025-01-11,expense,Bills,145706,transfer,Water bill,Saturday,2,True,-145706
+2025-01-11,expense,Food,31411,cash,Grocery items,Saturday,2,True,-31411
+2025-01-12,expense,Shopping,100932,cash,Clothes,Sunday,2,True,-100932
+2025-01-12,expense,Transport,24642,cash,Bus fare,Sunday,2,True,-24642
+2025-01-13,expense,Bills,157775,cash,Internet subscription,Monday,2,False,-157775
+2025-01-13,expense,Bills,115535,cash,Water bill,Monday,2,False,-115535
+2025-01-13,expense,Transport,4364,cash,Car maintenance,Monday,2,False,-4364
+2025-01-14,expense,Transport,20496,cash,Taxi ride,Tuesday,2,False,-20496
+2025-01-14,expense,Food,14686,cash,Snacks,Tuesday,2,False,-14686
+2025-01-15,expense,Transport,27903,cash,Fuel,Wednesday,3,False,-27903
+2025-01-15,expense,Transport,2638,online,Bus fare,Wednesday,3,False,-2638
+2025-01-16,expense,Bills,129024,online,Mobile recharge,Thursday,3,False,-129024
+2025-01-16,expense,Food,13822,cash,Snacks,Thursday,3,False,-13822
+2025-01-16,expense,Transport,24612,cash,Fuel,Thursday,3,False,-24612
+2025-01-17,expense,Transport,16578,card,Bus fare,Friday,3,False,-16578
+2025-01-17,expense,Food,12555,cash,Restaurant meal,Friday,3,False,-12555
+2025-01-17,expense,Shopping,22331,transfer,House supplies,Friday,3,False,-22331
+2025-01-18,expense,Bills,170507,cash,Water bill,Saturday,3,True,-170507
+2025-01-18,expense,Bills,120269,cash,Rent share,Saturday,3,True,-120269
+2025-01-19,expense,Transport,3047,transfer,Bus fare,Sunday,3,True,-3047
+2025-01-19,expense,Transport,24631,cash,Fuel,Sunday,3,True,-24631
+2025-01-20,expense,Food,15022,cash,Grocery items,Monday,3,False,-15022
+2025-01-20,expense,Transport,10366,online,Bus fare,Monday,3,False,-10366
+2025-01-20,expense,Food,13243,transfer,Vegetables & fruits,Monday,3,False,-13243
+2025-01-20,expense,Shopping,119624,card,Electronics accessory,Monday,3,False,-119624
+2025-01-21,expense,Food,35650,cash,Snacks,Tuesday,3,False,-35650
+2025-01-21,expense,Bills,82916,cash,Water bill,Tuesday,3,False,-82916
+2025-01-22,expense,Food,8126,cash,Vegetables & fruits,Wednesday,4,False,-8126
+2025-01-22,expense,Shopping,106569,cash,House supplies,Wednesday,4,False,-106569
+2025-01-22,expense,Food,47915,cash,Vegetables & fruits,Wednesday,4,False,-47915
+2025-01-22,expense,Food,21111,transfer,Restaurant meal,Wednesday,4,False,-21111
+2025-01-23,expense,Transport,29211,cash,Taxi ride,Thursday,4,False,-29211
+2025-01-23,expense,Food,18009,cash,Grocery items,Thursday,4,False,-18009
+2025-01-24,expense,Food,29439,transfer,Grocery items,Friday,4,False,-29439
+2025-01-24,expense,Transport,2702,transfer,Car maintenance,Friday,4,False,-2702
+2025-01-24,expense,Bills,153022,cash,Internet subscription,Friday,4,False,-153022
+2025-01-24,expense,Transport,17883,cash,Parking,Friday,4,False,-17883
+2025-01-25,expense,Transport,10426,card,Bus fare,Saturday,4,True,-10426
+2025-01-25,expense,Bills,28853,cash,Internet subscription,Saturday,4,True,-28853
+2025-01-25,expense,Shopping,91684,cash,Gifts,Saturday,4,True,-91684
+2025-01-25,expense,Food,12560,cash,Grocery items,Saturday,4,True,-12560
+2025-01-26,expense,Bills,123316,cash,Water bill,Sunday,4,True,-123316
+2025-01-26,expense,Shopping,95590,transfer,House supplies,Sunday,4,True,-95590
+2025-01-26,expense,Bills,63829,cash,Water bill,Sunday,4,True,-63829
+2025-01-26,expense,Transport,11358,cash,Bus fare,Sunday,4,True,-11358
+2025-01-27,expense,Bills,159499,cash,Rent share,Monday,4,False,-159499
+2025-01-27,expense,Transport,26289,cash,Bus fare,Monday,4,False,-26289
+2025-01-27,expense,Transport,8939,cash,Parking,Monday,4,False,-8939
+2025-01-27,expense,Transport,22888,transfer,Parking,Monday,4,False,-22888
+2025-01-28,expense,Food,25829,transfer,Grocery items,Tuesday,4,False,-25829
+2025-01-28,expense,Bills,74402,cash,Electricity bill,Tuesday,4,False,-74402
+2025-01-29,expense,Food,60179,cash,Coffee,Wednesday,5,False,-60179
+2025-01-29,expense,Food,7379,cash,Vegetables & fruits,Wednesday,5,False,-7379
+2025-01-29,expense,Food,7256,cash,Snacks,Wednesday,5,False,-7256
+2025-01-29,expense,Food,45523,cash,Vegetables & fruits,Wednesday,5,False,-45523
+2025-01-30,expense,Transport,24194,cash,Parking,Thursday,5,False,-24194
+2025-01-30,expense,Shopping,73087,cash,House supplies,Thursday,5,False,-73087
+2025-01-31,expense,Transport,8982,cash,Taxi ride,Friday,5,False,-8982
+2025-01-31,expense,Transport,12461,cash,Parking,Friday,5,False,-12461
+2025-02-01,income,Income,1200000,transfer,Monthly salary,Saturday,1,True,1200000
+2025-02-01,expense,Food,46052,card,Grocery items,Saturday,1,True,-46052
+2025-02-01,expense,Shopping,113691,online,Electronics accessory,Saturday,1,True,-113691
+2025-02-02,expense,Bills,149314,transfer,Water bill,Sunday,1,True,-149314
+2025-02-02,expense,Bills,45855,cash,Electricity bill,Sunday,1,True,-45855
+2025-02-03,expense,Shopping,98573,cash,Gifts,Monday,1,False,-98573
+2025-02-03,expense,Transport,3711,cash,Taxi ride,Monday,1,False,-3711
+2025-02-03,expense,Transport,6623,cash,Bus fare,Monday,1,False,-6623
+2025-02-04,expense,Transport,12290,transfer,Fuel,Tuesday,1,False,-12290
+2025-02-04,expense,Food,22109,online,Coffee,Tuesday,1,False,-22109
+2025-02-04,expense,Transport,27657,cash,Car maintenance,Tuesday,1,False,-27657
+2025-02-05,expense,Transport,15699,transfer,Car maintenance,Wednesday,1,False,-15699
+2025-02-05,expense,Shopping,81001,cash,Personal items,Wednesday,1,False,-81001
+2025-02-06,expense,Bills,69664,transfer,Mobile recharge,Thursday,1,False,-69664
+2025-02-06,expense,Food,56503,cash,Vegetables & fruits,Thursday,1,False,-56503
+2025-02-07,expense,Food,35916,cash,Vegetables & fruits,Friday,1,False,-35916
+2025-02-07,expense,Bills,173790,transfer,Rent share,Friday,1,False,-173790
+2025-02-07,expense,Food,28809,transfer,Snacks,Friday,1,False,-28809
+2025-02-08,expense,Shopping,112955,cash,House supplies,Saturday,2,True,-112955
+2025-02-08,expense,Food,14448,cash,Grocery items,Saturday,2,True,-14448
+2025-02-08,expense,Transport,18028,cash,Car maintenance,Saturday,2,True,-18028
+2025-02-08,expense,Food,35880,transfer,Vegetables & fruits,Saturday,2,True,-35880
+2025-02-09,expense,Transport,24006,cash,Taxi ride,Sunday,2,True,-24006
+2025-02-09,expense,Bills,100669,cash,Water bill,Sunday,2,True,-100669
+2025-02-09,expense,Shopping,129654,transfer,Gifts,Sunday,2,True,-129654
+2025-02-09,expense,Food,48562,card,Restaurant meal,Sunday,2,True,-48562
+2025-02-10,expense,Food,50514,cash,Grocery items,Monday,2,False,-50514
+2025-02-10,expense,Transport,28211,cash,Car maintenance,Monday,2,False,-28211
+2025-02-10,expense,Food,27382,transfer,Grocery items,Monday,2,False,-27382
+2025-02-10,expense,Food,37732,online,Restaurant meal,Monday,2,False,-37732
+2025-02-11,expense,Transport,25697,cash,Parking,Tuesday,2,False,-25697
+2025-02-11,expense,Transport,9587,cash,Parking,Tuesday,2,False,-9587
+2025-02-11,expense,Shopping,24201,cash,House supplies,Tuesday,2,False,-24201
+2025-02-11,expense,Bills,30018,cash,Water bill,Tuesday,2,False,-30018
+2025-02-12,expense,Shopping,67969,cash,Clothes,Wednesday,2,False,-67969
+2025-02-12,expense,Food,30981,cash,Snacks,Wednesday,2,False,-30981
+2025-02-13,expense,Bills,131096,card,Electricity bill,Thursday,2,False,-131096
+2025-02-13,expense,Food,6636,online,Grocery items,Thursday,2,False,-6636
+2025-02-13,expense,Shopping,11163,cash,Gifts,Thursday,2,False,-11163
+2025-02-13,expense,Shopping,90277,card,House supplies,Thursday,2,False,-90277
+2025-02-14,expense,Food,5768,card,Restaurant meal,Friday,2,False,-5768
+2025-02-14,expense,Food,44032,cash,Grocery items,Friday,2,False,-44032
+2025-02-14,expense,Bills,25841,cash,Rent share,Friday,2,False,-25841
+2025-02-14,expense,Food,40961,transfer,Vegetables & fruits,Friday,2,False,-40961
+2025-02-15,expense,Shopping,96325,card,Electronics accessory,Saturday,3,True,-96325
+2025-02-15,expense,Food,11334,transfer,Coffee,Saturday,3,True,-11334
+2025-02-16,expense,Food,55116,transfer,Snacks,Sunday,3,True,-55116
+2025-02-16,expense,Food,42430,card,Snacks,Sunday,3,True,-42430
+2025-02-16,expense,Food,13467,transfer,Grocery items,Sunday,3,True,-13467
+2025-02-16,expense,Transport,7405,cash,Taxi ride,Sunday,3,True,-7405
+2025-02-17,expense,Shopping,8578,card,House supplies,Monday,3,False,-8578
+2025-02-17,expense,Bills,96134,cash,Water bill,Monday,3,False,-96134
+2025-02-17,expense,Food,26640,cash,Grocery items,Monday,3,False,-26640
+2025-02-17,expense,Bills,83338,cash,Rent share,Monday,3,False,-83338
+2025-02-18,expense,Bills,146532,online,Mobile recharge,Tuesday,3,False,-146532
+2025-02-18,expense,Transport,10437,cash,Bus fare,Tuesday,3,False,-10437
+2025-02-18,expense,Food,46686,cash,Snacks,Tuesday,3,False,-46686
+2025-02-19,expense,Food,11889,cash,Grocery items,Wednesday,3,False,-11889
+2025-02-19,expense,Transport,28539,cash,Fuel,Wednesday,3,False,-28539
+2025-02-19,expense,Transport,19211,cash,Bus fare,Wednesday,3,False,-19211
+2025-02-19,expense,Transport,13221,cash,Car maintenance,Wednesday,3,False,-13221
+2025-02-20,expense,Food,28935,cash,Vegetables & fruits,Thursday,3,False,-28935
+2025-02-20,expense,Transport,3009,cash,Bus fare,Thursday,3,False,-3009
+2025-02-21,expense,Food,39972,cash,Coffee,Friday,3,False,-39972
+2025-02-21,expense,Transport,18440,cash,Car maintenance,Friday,3,False,-18440
+2025-02-21,expense,Transport,8895,cash,Car maintenance,Friday,3,False,-8895
+2025-02-22,expense,Bills,91869,cash,Rent share,Saturday,4,True,-91869
+2025-02-22,expense,Transport,22627,card,Taxi ride,Saturday,4,True,-22627
+2025-02-23,expense,Transport,16540,cash,Parking,Sunday,4,True,-16540
+2025-02-23,expense,Transport,3166,cash,Taxi ride,Sunday,4,True,-3166
+2025-02-23,expense,Bills,159620,cash,Rent share,Sunday,4,True,-159620
+2025-02-23,expense,Food,8736,cash,Restaurant meal,Sunday,4,True,-8736
+2025-02-24,expense,Food,14552,transfer,Coffee,Monday,4,False,-14552
+2025-02-24,expense,Bills,157764,cash,Water bill,Monday,4,False,-157764
+2025-02-24,expense,Food,13370,cash,Coffee,Monday,4,False,-13370
+2025-02-25,expense,Transport,4145,transfer,Parking,Tuesday,4,False,-4145
+2025-02-25,expense,Shopping,64030,transfer,Clothes,Tuesday,4,False,-64030
+2025-02-26,expense,Transport,21751,cash,Car maintenance,Wednesday,4,False,-21751
+2025-02-26,expense,Bills,57403,cash,Mobile recharge,Wednesday,4,False,-57403
+2025-02-27,expense,Food,60142,cash,Vegetables & fruits,Thursday,4,False,-60142
+2025-02-27,expense,Shopping,34463,online,Electronics accessory,Thursday,4,False,-34463
+2025-02-28,expense,Transport,5964,transfer,Taxi ride,Friday,4,False,-5964
+2025-02-28,expense,Transport,14145,cash,Parking,Friday,4,False,-14145
+2025-02-28,expense,Food,13191,cash,Restaurant meal,Friday,4,False,-13191
+2025-03-01,income,Income,1200000,transfer,Monthly salary,Saturday,1,True,1200000
+2025-03-01,income,Income,467486,transfer,Side income,Saturday,1,True,467486
+2025-03-01,expense,Food,18203,cash,Grocery items,Saturday,1,True,-18203
+2025-03-01,expense,Transport,4355,cash,Parking,Saturday,1,True,-4355
+2025-03-01,expense,Transport,25620,cash,Bus fare,Saturday,1,True,-25620
+2025-03-02,expense,Bills,137367,cash,Electricity bill,Sunday,1,True,-137367
+2025-03-02,expense,Bills,161583,card,Electricity bill,Sunday,1,True,-161583
+2025-03-02,expense,Food,24197,transfer,Snacks,Sunday,1,True,-24197
+2025-03-03,expense,Transport,25856,cash,Bus fare,Monday,1,False,-25856
+2025-03-03,expense,Shopping,73843,cash,Personal items,Monday,1,False,-73843
+2025-03-03,expense,Transport,4939,cash,Parking,Monday,1,False,-4939
+2025-03-03,expense,Shopping,129088,cash,Clothes,Monday,1,False,-129088
+2025-03-04,expense,Transport,9256,card,Taxi ride,Tuesday,1,False,-9256
+2025-03-04,expense,Food,46138,cash,Snacks,Tuesday,1,False,-46138
+2025-03-05,expense,Food,40507,transfer,Snacks,Wednesday,1,False,-40507
+2025-03-05,expense,Food,42659,online,Vegetables & fruits,Wednesday,1,False,-42659
+2025-03-06,expense,Transport,16422,online,Car maintenance,Thursday,1,False,-16422
+2025-03-06,expense,Bills,121621,card,Water bill,Thursday,1,False,-121621
+2025-03-06,expense,Shopping,17791,transfer,House supplies,Thursday,1,False,-17791
+2025-03-07,expense,Transport,14322,cash,Parking,Friday,1,False,-14322
+2025-03-07,expense,Bills,138731,transfer,Water bill,Friday,1,False,-138731
+2025-03-07,expense,Shopping,53737,cash,Clothes,Friday,1,False,-53737
+2025-03-07,expense,Shopping,13404,transfer,Electronics accessory,Friday,1,False,-13404
+2025-03-08,expense,Shopping,39932,transfer,Personal items,Saturday,2,True,-39932
+2025-03-08,expense,Transport,20195,cash,Taxi ride,Saturday,2,True,-20195
+2025-03-08,expense,Shopping,79334,card,Electronics accessory,Saturday,2,True,-79334
+2025-03-09,expense,Food,54177,cash,Vegetables & fruits,Sunday,2,True,-54177
+2025-03-09,expense,Transport,20908,transfer,Car maintenance,Sunday,2,True,-20908
+2025-03-09,expense,Food,51196,card,Coffee,Sunday,2,True,-51196
+2025-03-10,expense,Bills,61216,cash,Rent share,Monday,2,False,-61216
+2025-03-10,expense,Food,62054,transfer,Snacks,Monday,2,False,-62054
+2025-03-10,expense,Food,36367,cash,Grocery items,Monday,2,False,-36367
+2025-03-10,expense,Bills,133471,transfer,Rent share,Monday,2,False,-133471
+2025-03-11,expense,Shopping,39370,card,Electronics accessory,Tuesday,2,False,-39370
+2025-03-11,expense,Transport,10370,cash,Bus fare,Tuesday,2,False,-10370
+2025-03-12,expense,Food,45438,cash,Grocery items,Wednesday,2,False,-45438
+2025-03-12,expense,Shopping,67379,transfer,Gifts,Wednesday,2,False,-67379
+2025-03-12,expense,Food,36548,cash,Vegetables & fruits,Wednesday,2,False,-36548
+2025-03-13,expense,Food,28884,cash,Grocery items,Thursday,2,False,-28884
+2025-03-13,expense,Transport,12986,card,Fuel,Thursday,2,False,-12986
+2025-03-13,expense,Shopping,73592,cash,House supplies,Thursday,2,False,-73592
+2025-03-13,expense,Bills,81633,cash,Electricity bill,Thursday,2,False,-81633
+2025-03-14,expense,Food,62751,cash,Coffee,Friday,2,False,-62751
+2025-03-14,expense,Transport,14591,online,Bus fare,Friday,2,False,-14591
+2025-03-15,expense,Transport,23054,cash,Parking,Saturday,3,True,-23054
+2025-03-15,expense,Food,59452,cash,Vegetables & fruits,Saturday,3,True,-59452
+2025-03-15,expense,Shopping,105985,cash,Gifts,Saturday,3,True,-105985
+2025-03-15,expense,Food,43859,cash,Vegetables & fruits,Saturday,3,True,-43859
+2025-03-16,expense,Food,25167,cash,Vegetables & fruits,Sunday,3,True,-25167
+2025-03-16,expense,Food,7698,transfer,Snacks,Sunday,3,True,-7698
+2025-03-17,expense,Transport,23947,transfer,Fuel,Monday,3,False,-23947
+2025-03-17,expense,Transport,24809,card,Fuel,Monday,3,False,-24809
+2025-03-17,expense,Shopping,111961,cash,House supplies,Monday,3,False,-111961
+2025-03-18,expense,Food,51552,cash,Snacks,Tuesday,3,False,-51552
+2025-03-18,expense,Bills,46648,online,Internet subscription,Tuesday,3,False,-46648
+2025-03-18,expense,Shopping,105581,cash,House supplies,Tuesday,3,False,-105581
+2025-03-19,expense,Food,19010,cash,Coffee,Wednesday,3,False,-19010
+2025-03-19,expense,Transport,10751,cash,Parking,Wednesday,3,False,-10751
+2025-03-20,expense,Transport,27138,cash,Car maintenance,Thursday,3,False,-27138
+2025-03-20,expense,Food,63605,cash,Restaurant meal,Thursday,3,False,-63605
+2025-03-21,expense,Food,29413,card,Grocery items,Friday,3,False,-29413
+2025-03-21,expense,Food,4075,cash,Restaurant meal,Friday,3,False,-4075
+2025-03-22,expense,Food,32501,cash,Vegetables & fruits,Saturday,4,True,-32501
+2025-03-22,expense,Transport,8412,cash,Fuel,Saturday,4,True,-8412
+2025-03-22,expense,Bills,166696,transfer,Mobile recharge,Saturday,4,True,-166696
+2025-03-23,expense,Food,17923,cash,Vegetables & fruits,Sunday,4,True,-17923
+2025-03-23,expense,Shopping,101925,cash,Gifts,Sunday,4,True,-101925
+2025-03-23,expense,Food,6889,cash,Grocery items,Sunday,4,True,-6889
+2025-03-24,expense,Food,47082,cash,Coffee,Monday,4,False,-47082
+2025-03-24,expense,Food,9420,cash,Snacks,Monday,4,False,-9420
+2025-03-24,expense,Food,45935,cash,Vegetables & fruits,Monday,4,False,-45935
+2025-03-24,expense,Food,21120,cash,Vegetables & fruits,Monday,4,False,-21120
+2025-03-25,expense,Bills,50225,card,Mobile recharge,Tuesday,4,False,-50225
+2025-03-25,expense,Shopping,67988,cash,Electronics accessory,Tuesday,4,False,-67988
+2025-03-25,expense,Food,64063,cash,Coffee,Tuesday,4,False,-64063
+2025-03-26,expense,Food,35439,cash,Snacks,Wednesday,4,False,-35439
+2025-03-26,expense,Bills,152607,cash,Internet subscription,Wednesday,4,False,-152607
+2025-03-26,expense,Bills,139063,cash,Electricity bill,Wednesday,4,False,-139063
+2025-03-26,expense,Food,46828,transfer,Grocery items,Wednesday,4,False,-46828
+2025-03-27,expense,Bills,134754,cash,Water bill,Thursday,4,False,-134754
+2025-03-27,expense,Food,12766,transfer,Grocery items,Thursday,4,False,-12766
+2025-03-27,expense,Shopping,30828,cash,House supplies,Thursday,4,False,-30828
+2025-03-27,expense,Bills,178725,cash,Rent share,Thursday,4,False,-178725
+2025-03-28,expense,Shopping,59239,card,House supplies,Friday,4,False,-59239
+2025-03-28,expense,Transport,4550,cash,Parking,Friday,4,False,-4550
+2025-03-29,expense,Food,41929,cash,Grocery items,Saturday,5,True,-41929
+2025-03-29,expense,Food,21980,cash,Vegetables & fruits,Saturday,5,True,-21980
+2025-03-30,expense,Food,55180,cash,Restaurant meal,Sunday,5,True,-55180
+2025-03-30,expense,Bills,53713,cash,Mobile recharge,Sunday,5,True,-53713
+2025-03-30,expense,Food,49851,transfer,Coffee,Sunday,5,True,-49851
+2025-03-30,expense,Shopping,108730,transfer,Personal items,Sunday,5,True,-108730
+2025-03-31,expense,Transport,29535,cash,Bus fare,Monday,5,False,-29535
+2025-03-31,expense,Transport,13422,cash,Car maintenance,Monday,5,False,-13422
+2025-03-31,expense,Food,58269,cash,Grocery items,Monday,5,False,-58269
+2025-03-31,expense,Bills,130800,cash,Electricity bill,Monday,5,False,-130800
+2025-04-01,income,Income,1200000,transfer,Monthly salary,Tuesday,1,False,1200000
+2025-04-01,income,Income,486542,transfer,Side income,Tuesday,1,False,486542
+2025-04-01,expense,Shopping,34339,transfer,Gifts,Tuesday,1,False,-34339
+2025-04-01,expense,Shopping,123944,cash,Personal items,Tuesday,1,False,-123944
+2025-04-01,expense,Food,35538,transfer,Coffee,Tuesday,1,False,-35538
+2025-04-01,expense,Transport,22471,transfer,Parking,Tuesday,1,False,-22471
+2025-04-02,expense,Food,56533,cash,Coffee,Wednesday,1,False,-56533
+2025-04-02,expense,Shopping,8428,transfer,Clothes,Wednesday,1,False,-8428
+2025-04-02,expense,Shopping,68166,online,House supplies,Wednesday,1,False,-68166
+2025-04-03,expense,Bills,83457,cash,Mobile recharge,Thursday,1,False,-83457
+2025-04-03,expense,Shopping,84690,cash,House supplies,Thursday,1,False,-84690
+2025-04-03,expense,Transport,18849,online,Bus fare,Thursday,1,False,-18849
+2025-04-03,expense,Food,32526,cash,Restaurant meal,Thursday,1,False,-32526
+2025-04-04,expense,Transport,10618,cash,Car maintenance,Friday,1,False,-10618
+2025-04-04,expense,Food,5444,cash,Vegetables & fruits,Friday,1,False,-5444
+2025-04-04,expense,Food,16090,transfer,Grocery items,Friday,1,False,-16090
+2025-04-05,expense,Food,57743,cash,Grocery items,Saturday,1,True,-57743
+2025-04-05,expense,Food,32573,cash,Grocery items,Saturday,1,True,-32573
+2025-04-05,expense,Food,6755,cash,Grocery items,Saturday,1,True,-6755
+2025-04-06,expense,Bills,45989,transfer,Electricity bill,Sunday,1,True,-45989
+2025-04-06,expense,Transport,10445,card,Parking,Sunday,1,True,-10445
+2025-04-06,expense,Food,10418,online,Vegetables & fruits,Sunday,1,True,-10418
+2025-04-06,expense,Food,25645,cash,Vegetables & fruits,Sunday,1,True,-25645
+2025-04-07,expense,Food,12405,card,Coffee,Monday,1,False,-12405
+2025-04-07,expense,Transport,19269,cash,Bus fare,Monday,1,False,-19269
+2025-04-07,expense,Food,14083,cash,Snacks,Monday,1,False,-14083
+2025-04-08,expense,Shopping,77171,cash,Gifts,Tuesday,2,False,-77171
+2025-04-08,expense,Transport,25741,cash,Fuel,Tuesday,2,False,-25741
+2025-04-09,expense,Bills,142802,online,Mobile recharge,Wednesday,2,False,-142802
+2025-04-09,expense,Food,11359,card,Coffee,Wednesday,2,False,-11359
+2025-04-10,expense,Food,41680,cash,Grocery items,Thursday,2,False,-41680
+2025-04-10,expense,Shopping,16114,cash,Personal items,Thursday,2,False,-16114
+2025-04-11,expense,Shopping,101752,cash,Clothes,Friday,2,False,-101752
+2025-04-11,expense,Shopping,40313,cash,House supplies,Friday,2,False,-40313
+2025-04-11,expense,Transport,28320,card,Taxi ride,Friday,2,False,-28320
+2025-04-11,expense,Transport,23766,cash,Fuel,Friday,2,False,-23766
+2025-04-12,expense,Transport,12118,cash,Taxi ride,Saturday,2,True,-12118
+2025-04-12,expense,Transport,7110,cash,Parking,Saturday,2,True,-7110
+2025-04-12,expense,Transport,25360,cash,Parking,Saturday,2,True,-25360
+2025-04-13,expense,Food,37819,cash,Grocery items,Sunday,2,True,-37819
+2025-04-13,expense,Food,59927,cash,Vegetables & fruits,Sunday,2,True,-59927
+2025-04-13,expense,Food,41095,cash,Vegetables & fruits,Sunday,2,True,-41095
+2025-04-14,expense,Transport,5991,transfer,Parking,Monday,2,False,-5991
+2025-04-14,expense,Food,26623,cash,Snacks,Monday,2,False,-26623
+2025-04-14,expense,Shopping,117394,cash,Electronics accessory,Monday,2,False,-117394
+2025-04-15,expense,Transport,3402,transfer,Car maintenance,Tuesday,3,False,-3402
+2025-04-15,expense,Bills,148013,cash,Electricity bill,Tuesday,3,False,-148013
+2025-04-15,expense,Bills,168186,cash,Electricity bill,Tuesday,3,False,-168186
+2025-04-16,expense,Food,57565,cash,Grocery items,Wednesday,3,False,-57565
+2025-04-16,expense,Shopping,113320,cash,House supplies,Wednesday,3,False,-113320
+2025-04-16,expense,Food,52045,cash,Coffee,Wednesday,3,False,-52045
+2025-04-17,expense,Food,60232,cash,Restaurant meal,Thursday,3,False,-60232
+2025-04-17,expense,Bills,127292,cash,Internet subscription,Thursday,3,False,-127292
+2025-04-18,expense,Shopping,19971,card,Gifts,Friday,3,False,-19971
+2025-04-18,expense,Transport,18342,cash,Taxi ride,Friday,3,False,-18342
+2025-04-18,expense,Food,21669,transfer,Vegetables & fruits,Friday,3,False,-21669
+2025-04-19,expense,Transport,29770,cash,Fuel,Saturday,3,True,-29770
+2025-04-19,expense,Bills,171868,cash,Water bill,Saturday,3,True,-171868
+2025-04-20,expense,Transport,22302,cash,Parking,Sunday,3,True,-22302
+2025-04-20,expense,Transport,7305,cash,Car maintenance,Sunday,3,True,-7305
+2025-04-20,expense,Bills,132961,cash,Mobile recharge,Sunday,3,True,-132961
+2025-04-20,expense,Transport,9239,cash,Taxi ride,Sunday,3,True,-9239
+2025-04-21,expense,Bills,128460,cash,Rent share,Monday,3,False,-128460
+2025-04-21,expense,Bills,75614,cash,Internet subscription,Monday,3,False,-75614
+2025-04-22,expense,Shopping,122993,cash,Clothes,Tuesday,4,False,-122993
+2025-04-22,expense,Food,21112,transfer,Restaurant meal,Tuesday,4,False,-21112
+2025-04-22,expense,Bills,166730,cash,Rent share,Tuesday,4,False,-166730
+2025-04-22,expense,Food,62595,transfer,Snacks,Tuesday,4,False,-62595
+2025-04-23,expense,Bills,172702,online,Mobile recharge,Wednesday,4,False,-172702
+2025-04-23,expense,Food,28380,transfer,Snacks,Wednesday,4,False,-28380
+2025-04-23,expense,Bills,28600,cash,Water bill,Wednesday,4,False,-28600
+2025-04-23,expense,Food,57381,cash,Restaurant meal,Wednesday,4,False,-57381
+2025-04-24,expense,Shopping,121072,cash,Personal items,Thursday,4,False,-121072
+2025-04-24,expense,Shopping,66445,cash,Gifts,Thursday,4,False,-66445
+2025-04-24,expense,Food,53357,card,Restaurant meal,Thursday,4,False,-53357
+2025-04-25,expense,Shopping,129951,transfer,House supplies,Friday,4,False,-129951
+2025-04-25,expense,Shopping,71440,cash,Gifts,Friday,4,False,-71440
+2025-04-25,expense,Bills,62235,cash,Water bill,Friday,4,False,-62235
+2025-04-25,expense,Bills,69844,cash,Mobile recharge,Friday,4,False,-69844
+2025-04-26,expense,Transport,10139,cash,Parking,Saturday,4,True,-10139
+2025-04-26,expense,Food,26325,cash,Grocery items,Saturday,4,True,-26325
+2025-04-26,expense,Shopping,67989,card,Gifts,Saturday,4,True,-67989
+2025-04-27,expense,Bills,46441,cash,Mobile recharge,Sunday,4,True,-46441
+2025-04-27,expense,Food,64915,cash,Vegetables & fruits,Sunday,4,True,-64915
+2025-04-28,expense,Transport,26576,online,Parking,Monday,4,False,-26576
+2025-04-28,expense,Bills,123062,cash,Internet subscription,Monday,4,False,-123062
+2025-04-29,expense,Food,52235,cash,Coffee,Tuesday,5,False,-52235
+2025-04-29,expense,Shopping,117893,cash,House supplies,Tuesday,5,False,-117893
+2025-04-29,expense,Bills,90641,cash,Electricity bill,Tuesday,5,False,-90641
+2025-04-30,expense,Bills,28683,cash,Rent share,Wednesday,5,False,-28683
+2025-04-30,expense,Bills,41425,transfer,Internet subscription,Wednesday,5,False,-41425
+2025-04-30,expense,Shopping,23607,cash,Electronics accessory,Wednesday,5,False,-23607
+2025-05-01,income,Income,1200000,transfer,Monthly salary,Thursday,1,False,1200000
+2025-05-01,expense,Food,29911,cash,Restaurant meal,Thursday,1,False,-29911
+2025-05-01,expense,Bills,147056,transfer,Rent share,Thursday,1,False,-147056
+2025-05-02,expense,Transport,6686,card,Bus fare,Friday,1,False,-6686
+2025-05-02,expense,Food,20312,card,Grocery items,Friday,1,False,-20312
+2025-05-02,expense,Bills,166938,cash,Internet subscription,Friday,1,False,-166938
+2025-05-02,expense,Bills,72719,cash,Mobile recharge,Friday,1,False,-72719
+2025-05-03,expense,Food,7221,cash,Restaurant meal,Saturday,1,True,-7221
+2025-05-03,expense,Transport,20263,transfer,Fuel,Saturday,1,True,-20263
+2025-05-03,expense,Bills,51040,cash,Internet subscription,Saturday,1,True,-51040
+2025-05-04,expense,Shopping,63887,transfer,Clothes,Sunday,1,True,-63887
+2025-05-04,expense,Transport,18451,transfer,Fuel,Sunday,1,True,-18451
+2025-05-04,expense,Shopping,34593,transfer,Personal items,Sunday,1,True,-34593
+2025-05-04,expense,Food,47575,cash,Snacks,Sunday,1,True,-47575
+2025-05-05,expense,Food,17370,cash,Restaurant meal,Monday,1,False,-17370
+2025-05-05,expense,Bills,52325,cash,Internet subscription,Monday,1,False,-52325
+2025-05-05,expense,Food,54209,cash,Coffee,Monday,1,False,-54209
+2025-05-06,expense,Food,15201,online,Vegetables & fruits,Tuesday,1,False,-15201
+2025-05-06,expense,Bills,173135,cash,Rent share,Tuesday,1,False,-173135
+2025-05-06,expense,Transport,19280,cash,Fuel,Tuesday,1,False,-19280
+2025-05-06,expense,Transport,28504,transfer,Fuel,Tuesday,1,False,-28504
+2025-05-07,expense,Transport,17859,transfer,Bus fare,Wednesday,1,False,-17859
+2025-05-07,expense,Shopping,11508,cash,Electronics accessory,Wednesday,1,False,-11508
+2025-05-08,expense,Transport,9240,transfer,Car maintenance,Thursday,2,False,-9240
+2025-05-08,expense,Food,25260,cash,Snacks,Thursday,2,False,-25260
+2025-05-08,expense,Transport,23128,cash,Fuel,Thursday,2,False,-23128
+2025-05-09,expense,Transport,10812,cash,Fuel,Friday,2,False,-10812
+2025-05-09,expense,Bills,25165,cash,Mobile recharge,Friday,2,False,-25165
+2025-05-10,expense,Bills,153655,online,Mobile recharge,Saturday,2,True,-153655
+2025-05-10,expense,Food,32954,cash,Grocery items,Saturday,2,True,-32954
+2025-05-10,expense,Shopping,70583,cash,Personal items,Saturday,2,True,-70583
+2025-05-10,expense,Transport,10432,cash,Car maintenance,Saturday,2,True,-10432
+2025-05-11,expense,Food,10048,card,Grocery items,Sunday,2,True,-10048
+2025-05-11,expense,Transport,10971,cash,Fuel,Sunday,2,True,-10971
+2025-05-11,expense,Food,7371,cash,Restaurant meal,Sunday,2,True,-7371
+2025-05-11,expense,Food,20153,cash,Snacks,Sunday,2,True,-20153
+2025-05-12,expense,Shopping,100323,cash,House supplies,Monday,2,False,-100323
+2025-05-12,expense,Shopping,14713,cash,House supplies,Monday,2,False,-14713
+2025-05-13,expense,Shopping,24099,cash,House supplies,Tuesday,2,False,-24099
+2025-05-13,expense,Bills,179484,cash,Electricity bill,Tuesday,2,False,-179484
+2025-05-13,expense,Shopping,60966,cash,Personal items,Tuesday,2,False,-60966
+2025-05-14,expense,Transport,11128,cash,Bus fare,Wednesday,2,False,-11128
+2025-05-14,expense,Bills,69916,cash,Rent share,Wednesday,2,False,-69916
+2025-05-14,expense,Food,53122,cash,Restaurant meal,Wednesday,2,False,-53122
+2025-05-14,expense,Shopping,70062,cash,House supplies,Wednesday,2,False,-70062
+2025-05-15,expense,Food,15785,cash,Snacks,Thursday,3,False,-15785
+2025-05-15,expense,Shopping,55344,cash,Personal items,Thursday,3,False,-55344
+2025-05-16,expense,Bills,138227,cash,Electricity bill,Friday,3,False,-138227
+2025-05-16,expense,Shopping,43762,cash,Personal items,Friday,3,False,-43762
+2025-05-16,expense,Shopping,58647,cash,Personal items,Friday,3,False,-58647
+2025-05-17,expense,Food,37818,cash,Restaurant meal,Saturday,3,True,-37818
+2025-05-17,expense,Transport,6649,transfer,Parking,Saturday,3,True,-6649
+2025-05-17,expense,Transport,12894,cash,Car maintenance,Saturday,3,True,-12894
+2025-05-18,expense,Bills,175452,cash,Rent share,Sunday,3,True,-175452
+2025-05-18,expense,Food,10380,cash,Coffee,Sunday,3,True,-10380
+2025-05-18,expense,Shopping,94667,cash,Electronics accessory,Sunday,3,True,-94667
+2025-05-19,expense,Transport,27869,cash,Parking,Monday,3,False,-27869
+2025-05-19,expense,Food,45505,cash,Grocery items,Monday,3,False,-45505
+2025-05-20,expense,Bills,62119,cash,Mobile recharge,Tuesday,3,False,-62119
+2025-05-20,expense,Shopping,67686,transfer,House supplies,Tuesday,3,False,-67686
+2025-05-21,expense,Shopping,51654,cash,Personal items,Wednesday,3,False,-51654
+2025-05-21,expense,Transport,23697,cash,Fuel,Wednesday,3,False,-23697
+2025-05-21,expense,Transport,17021,online,Taxi ride,Wednesday,3,False,-17021
+2025-05-21,expense,Food,62778,card,Vegetables & fruits,Wednesday,3,False,-62778
+2025-05-22,expense,Bills,114839,cash,Electricity bill,Thursday,4,False,-114839
+2025-05-22,expense,Shopping,59441,cash,Electronics accessory,Thursday,4,False,-59441
+2025-05-23,expense,Shopping,82499,cash,Electronics accessory,Friday,4,False,-82499
+2025-05-23,expense,Bills,82347,cash,Internet subscription,Friday,4,False,-82347
+2025-05-24,expense,Bills,35679,cash,Electricity bill,Saturday,4,True,-35679
+2025-05-24,expense,Shopping,104426,cash,Electronics accessory,Saturday,4,True,-104426
+2025-05-25,expense,Transport,16572,cash,Car maintenance,Sunday,4,True,-16572
+2025-05-25,expense,Bills,120900,cash,Mobile recharge,Sunday,4,True,-120900
+2025-05-25,expense,Food,32165,cash,Vegetables & fruits,Sunday,4,True,-32165
+2025-05-25,expense,Bills,58220,cash,Mobile recharge,Sunday,4,True,-58220
+2025-05-26,expense,Transport,16337,cash,Parking,Monday,4,False,-16337
+2025-05-26,expense,Food,17701,online,Vegetables & fruits,Monday,4,False,-17701
+2025-05-27,expense,Bills,37513,cash,Electricity bill,Tuesday,4,False,-37513
+2025-05-27,expense,Shopping,64631,cash,Clothes,Tuesday,4,False,-64631
+2025-05-28,expense,Transport,15398,cash,Parking,Wednesday,4,False,-15398
+2025-05-28,expense,Shopping,34854,cash,Gifts,Wednesday,4,False,-34854
+2025-05-29,expense,Food,59082,cash,Restaurant meal,Thursday,5,False,-59082
+2025-05-29,expense,Shopping,15896,card,Electronics accessory,Thursday,5,False,-15896
+2025-05-29,expense,Shopping,28560,cash,House supplies,Thursday,5,False,-28560
+2025-05-30,expense,Transport,6820,cash,Parking,Friday,5,False,-6820
+2025-05-30,expense,Transport,24155,cash,Taxi ride,Friday,5,False,-24155
+2025-05-30,expense,Transport,7542,cash,Parking,Friday,5,False,-7542
+2025-05-30,expense,Food,45110,transfer,Vegetables & fruits,Friday,5,False,-45110
+2025-05-31,expense,Shopping,117562,cash,Electronics accessory,Saturday,5,True,-117562
+2025-05-31,expense,Shopping,113044,cash,Clothes,Saturday,5,True,-113044
+2025-05-31,expense,Shopping,79741,card,Clothes,Saturday,5,True,-79741
+2025-06-01,income,Income,1200000,transfer,Monthly salary,Sunday,1,True,1200000
+2025-06-01,expense,Transport,7456,cash,Fuel,Sunday,1,True,-7456
+2025-06-01,expense,Transport,22267,transfer,Taxi ride,Sunday,1,True,-22267
+2025-06-01,expense,Transport,22285,card,Bus fare,Sunday,1,True,-22285
+2025-06-01,expense,Transport,25384,cash,Car maintenance,Sunday,1,True,-25384
+2025-06-02,expense,Food,13608,cash,Restaurant meal,Monday,1,False,-13608
+2025-06-02,expense,Shopping,76079,online,Electronics accessory,Monday,1,False,-76079
+2025-06-03,expense,Food,13052,cash,Grocery items,Tuesday,1,False,-13052
+2025-06-03,expense,Food,26225,cash,Vegetables & fruits,Tuesday,1,False,-26225
+2025-06-03,expense,Food,44265,cash,Coffee,Tuesday,1,False,-44265
+2025-06-03,expense,Food,34954,cash,Vegetables & fruits,Tuesday,1,False,-34954
+2025-06-04,expense,Shopping,122066,cash,Personal items,Wednesday,1,False,-122066
+2025-06-04,expense,Transport,14259,online,Parking,Wednesday,1,False,-14259
+2025-06-04,expense,Food,27076,transfer,Grocery items,Wednesday,1,False,-27076
+2025-06-05,expense,Food,14626,cash,Coffee,Thursday,1,False,-14626
+2025-06-05,expense,Food,53287,transfer,Restaurant meal,Thursday,1,False,-53287
+2025-06-05,expense,Bills,164911,online,Internet subscription,Thursday,1,False,-164911
+2025-06-06,expense,Food,15462,cash,Restaurant meal,Friday,1,False,-15462
+2025-06-06,expense,Transport,29854,cash,Bus fare,Friday,1,False,-29854
+2025-06-06,expense,Transport,15382,cash,Parking,Friday,1,False,-15382
+2025-06-06,expense,Transport,3871,cash,Fuel,Friday,1,False,-3871
+2025-06-07,expense,Bills,117671,cash,Rent share,Saturday,1,True,-117671
+2025-06-07,expense,Food,34157,cash,Vegetables & fruits,Saturday,1,True,-34157
+2025-06-08,expense,Shopping,15963,cash,House supplies,Sunday,2,True,-15963
+2025-06-08,expense,Bills,157715,cash,Electricity bill,Sunday,2,True,-157715
+2025-06-08,expense,Bills,78889,cash,Water bill,Sunday,2,True,-78889
+2025-06-08,expense,Transport,20811,online,Car maintenance,Sunday,2,True,-20811
+2025-06-09,expense,Transport,3277,cash,Car maintenance,Monday,2,False,-3277
+2025-06-09,expense,Bills,107526,transfer,Electricity bill,Monday,2,False,-107526
+2025-06-09,expense,Transport,11790,cash,Taxi ride,Monday,2,False,-11790
+2025-06-10,expense,Bills,122157,cash,Internet subscription,Tuesday,2,False,-122157
+2025-06-10,expense,Shopping,134198,cash,Clothes,Tuesday,2,False,-134198
+2025-06-10,expense,Food,16057,cash,Restaurant meal,Tuesday,2,False,-16057
+2025-06-11,expense,Shopping,118384,cash,House supplies,Wednesday,2,False,-118384
+2025-06-11,expense,Bills,147074,cash,Mobile recharge,Wednesday,2,False,-147074
+2025-06-11,expense,Bills,85307,cash,Electricity bill,Wednesday,2,False,-85307
+2025-06-12,expense,Transport,5563,cash,Fuel,Thursday,2,False,-5563
+2025-06-12,expense,Bills,146242,transfer,Internet subscription,Thursday,2,False,-146242
+2025-06-12,expense,Food,53719,cash,Snacks,Thursday,2,False,-53719
+2025-06-13,expense,Food,24944,cash,Restaurant meal,Friday,2,False,-24944
+2025-06-13,expense,Transport,27476,cash,Car maintenance,Friday,2,False,-27476
+2025-06-13,expense,Food,15196,cash,Restaurant meal,Friday,2,False,-15196
+2025-06-13,expense,Transport,2404,cash,Bus fare,Friday,2,False,-2404
+2025-06-14,expense,Food,26525,cash,Grocery items,Saturday,2,True,-26525
+2025-06-14,expense,Bills,159411,online,Mobile recharge,Saturday,2,True,-159411
+2025-06-14,expense,Shopping,88984,card,Electronics accessory,Saturday,2,True,-88984
+2025-06-14,expense,Transport,27441,transfer,Fuel,Saturday,2,True,-27441
+2025-06-15,expense,Food,32589,cash,Snacks,Sunday,3,True,-32589
+2025-06-15,expense,Food,31532,cash,Snacks,Sunday,3,True,-31532
+2025-06-15,expense,Transport,19990,cash,Parking,Sunday,3,True,-19990
+2025-06-16,expense,Bills,59902,card,Internet subscription,Monday,3,False,-59902
+2025-06-16,expense,Shopping,49493,cash,Gifts,Monday,3,False,-49493
+2025-06-16,expense,Shopping,43387,cash,Gifts,Monday,3,False,-43387
+2025-06-16,expense,Shopping,131922,cash,Electronics accessory,Monday,3,False,-131922
+2025-06-17,expense,Food,49549,online,Grocery items,Tuesday,3,False,-49549
+2025-06-17,expense,Food,50698,card,Snacks,Tuesday,3,False,-50698
+2025-06-17,expense,Food,4192,cash,Coffee,Tuesday,3,False,-4192
+2025-06-18,expense,Bills,52196,transfer,Rent share,Wednesday,3,False,-52196
+2025-06-18,expense,Food,53682,cash,Vegetables & fruits,Wednesday,3,False,-53682
+2025-06-18,expense,Shopping,44459,online,Personal items,Wednesday,3,False,-44459
+2025-06-18,expense,Food,20140,cash,Vegetables & fruits,Wednesday,3,False,-20140
+2025-06-19,expense,Food,39308,card,Restaurant meal,Thursday,3,False,-39308
+2025-06-19,expense,Bills,155364,cash,Electricity bill,Thursday,3,False,-155364
+2025-06-19,expense,Bills,113659,online,Mobile recharge,Thursday,3,False,-113659
+2025-06-20,expense,Food,6357,cash,Restaurant meal,Friday,3,False,-6357
+2025-06-20,expense,Transport,22918,cash,Fuel,Friday,3,False,-22918
+2025-06-20,expense,Bills,54269,cash,Mobile recharge,Friday,3,False,-54269
+2025-06-20,expense,Food,29012,cash,Coffee,Friday,3,False,-29012
+2025-06-21,expense,Bills,126153,card,Mobile recharge,Saturday,3,True,-126153
+2025-06-21,expense,Bills,36087,transfer,Electricity bill,Saturday,3,True,-36087
+2025-06-21,expense,Shopping,19480,cash,Gifts,Saturday,3,True,-19480
+2025-06-21,expense,Transport,13593,cash,Bus fare,Saturday,3,True,-13593
+2025-06-22,expense,Transport,7190,transfer,Fuel,Sunday,4,True,-7190
+2025-06-22,expense,Food,59363,transfer,Coffee,Sunday,4,True,-59363
+2025-06-23,expense,Food,20814,online,Grocery items,Monday,4,False,-20814
+2025-06-23,expense,Food,35318,cash,Snacks,Monday,4,False,-35318
+2025-06-24,expense,Transport,25706,cash,Bus fare,Tuesday,4,False,-25706
+2025-06-24,expense,Food,51757,cash,Restaurant meal,Tuesday,4,False,-51757
+2025-06-24,expense,Food,59961,card,Restaurant meal,Tuesday,4,False,-59961
+2025-06-25,expense,Food,10036,transfer,Coffee,Wednesday,4,False,-10036
+2025-06-25,expense,Food,40754,transfer,Grocery items,Wednesday,4,False,-40754
+2025-06-25,expense,Shopping,28991,transfer,Electronics accessory,Wednesday,4,False,-28991
+2025-06-25,expense,Food,63489,card,Snacks,Wednesday,4,False,-63489
+2025-06-26,expense,Bills,106755,transfer,Water bill,Thursday,4,False,-106755
+2025-06-26,expense,Shopping,45996,cash,Electronics accessory,Thursday,4,False,-45996
+2025-06-27,expense,Transport,16143,cash,Bus fare,Friday,4,False,-16143
+2025-06-27,expense,Transport,25299,card,Car maintenance,Friday,4,False,-25299
+2025-06-28,expense,Bills,63242,transfer,Mobile recharge,Saturday,4,True,-63242
+2025-06-28,expense,Bills,173897,transfer,Rent share,Saturday,4,True,-173897
+2025-06-28,expense,Transport,27700,online,Fuel,Saturday,4,True,-27700
+2025-06-28,expense,Food,25475,cash,Coffee,Saturday,4,True,-25475
+2025-06-29,expense,Shopping,89254,cash,Electronics accessory,Sunday,5,True,-89254
+2025-06-29,expense,Food,35510,cash,Coffee,Sunday,5,True,-35510
+2025-06-29,expense,Transport,19081,card,Parking,Sunday,5,True,-19081
+2025-06-30,expense,Bills,71704,transfer,Rent share,Monday,5,False,-71704
+2025-06-30,expense,Transport,2684,cash,Parking,Monday,5,False,-2684
+2025-06-30,expense,Bills,135347,cash,Water bill,Monday,5,False,-135347
+2025-06-30,expense,Bills,101818,cash,Mobile recharge,Monday,5,False,-101818
+2025-07-01,income,Income,1200000,transfer,Monthly salary,Tuesday,1,False,1200000
+2025-07-01,expense,Food,56905,transfer,Grocery items,Tuesday,1,False,-56905
+2025-07-01,expense,Transport,17087,card,Fuel,Tuesday,1,False,-17087
+2025-07-01,expense,Shopping,37474,card,Gifts,Tuesday,1,False,-37474
+2025-07-02,expense,Transport,8045,cash,Car maintenance,Wednesday,1,False,-8045
+2025-07-02,expense,Bills,60765,cash,Electricity bill,Wednesday,1,False,-60765
+2025-07-03,expense,Bills,40938,cash,Mobile recharge,Thursday,1,False,-40938
+2025-07-03,expense,Bills,34477,cash,Water bill,Thursday,1,False,-34477
+2025-07-03,expense,Bills,27682,transfer,Rent share,Thursday,1,False,-27682
+2025-07-03,expense,Transport,3627,cash,Fuel,Thursday,1,False,-3627
+2025-07-04,expense,Shopping,26615,card,Electronics accessory,Friday,1,False,-26615
+2025-07-04,expense,Shopping,51845,cash,Clothes,Friday,1,False,-51845
+2025-07-05,expense,Food,27205,online,Grocery items,Saturday,1,True,-27205
+2025-07-05,expense,Food,9349,cash,Grocery items,Saturday,1,True,-9349
+2025-07-06,expense,Transport,25163,card,Fuel,Sunday,1,True,-25163
+2025-07-06,expense,Bills,123962,cash,Rent share,Sunday,1,True,-123962
+2025-07-06,expense,Bills,135476,cash,Water bill,Sunday,1,True,-135476
+2025-07-07,expense,Transport,23879,cash,Fuel,Monday,1,False,-23879
+2025-07-07,expense,Food,50069,card,Restaurant meal,Monday,1,False,-50069
+2025-07-07,expense,Bills,131808,transfer,Electricity bill,Monday,1,False,-131808
+2025-07-08,expense,Food,56240,cash,Snacks,Tuesday,2,False,-56240
+2025-07-08,expense,Bills,131779,card,Internet subscription,Tuesday,2,False,-131779
+2025-07-08,expense,Food,21996,cash,Restaurant meal,Tuesday,2,False,-21996
+2025-07-09,expense,Transport,14467,cash,Car maintenance,Wednesday,2,False,-14467
+2025-07-09,expense,Bills,168334,transfer,Internet subscription,Wednesday,2,False,-168334
+2025-07-10,expense,Bills,129586,cash,Mobile recharge,Thursday,2,False,-129586
+2025-07-10,expense,Food,9289,cash,Restaurant meal,Thursday,2,False,-9289
+2025-07-10,expense,Transport,14346,transfer,Car maintenance,Thursday,2,False,-14346
+2025-07-11,expense,Shopping,12902,cash,Gifts,Friday,2,False,-12902
+2025-07-11,expense,Transport,17134,cash,Bus fare,Friday,2,False,-17134
+2025-07-12,expense,Transport,27983,cash,Bus fare,Saturday,2,True,-27983
+2025-07-12,expense,Transport,16439,cash,Bus fare,Saturday,2,True,-16439
+2025-07-12,expense,Bills,167861,cash,Mobile recharge,Saturday,2,True,-167861
+2025-07-12,expense,Bills,97589,online,Mobile recharge,Saturday,2,True,-97589
+2025-07-13,expense,Food,39811,cash,Grocery items,Sunday,2,True,-39811
+2025-07-13,expense,Food,26355,transfer,Coffee,Sunday,2,True,-26355
+2025-07-13,expense,Food,47277,cash,Grocery items,Sunday,2,True,-47277
+2025-07-14,expense,Shopping,28365,cash,Clothes,Monday,2,False,-28365
+2025-07-14,expense,Food,29147,transfer,Grocery items,Monday,2,False,-29147
+2025-07-14,expense,Bills,60755,card,Rent share,Monday,2,False,-60755
+2025-07-14,expense,Food,34512,transfer,Snacks,Monday,2,False,-34512
+2025-07-15,expense,Shopping,98052,cash,Clothes,Tuesday,3,False,-98052
+2025-07-15,expense,Food,49798,online,Vegetables & fruits,Tuesday,3,False,-49798
+2025-07-15,expense,Food,10670,cash,Snacks,Tuesday,3,False,-10670
+2025-07-15,expense,Food,48025,card,Vegetables & fruits,Tuesday,3,False,-48025
+2025-07-16,expense,Transport,7708,cash,Parking,Wednesday,3,False,-7708
+2025-07-16,expense,Shopping,66054,online,Personal items,Wednesday,3,False,-66054
+2025-07-17,expense,Shopping,92070,cash,Personal items,Thursday,3,False,-92070
+2025-07-17,expense,Bills,52031,cash,Mobile recharge,Thursday,3,False,-52031
+2025-07-17,expense,Food,29165,transfer,Snacks,Thursday,3,False,-29165
+2025-07-17,expense,Food,53272,cash,Restaurant meal,Thursday,3,False,-53272
+2025-07-18,expense,Food,11760,cash,Grocery items,Friday,3,False,-11760
+2025-07-18,expense,Shopping,108233,cash,House supplies,Friday,3,False,-108233
+2025-07-18,expense,Transport,2592,cash,Taxi ride,Friday,3,False,-2592
+2025-07-19,expense,Bills,131522,cash,Internet subscription,Saturday,3,True,-131522
+2025-07-19,expense,Food,60310,cash,Snacks,Saturday,3,True,-60310
+2025-07-20,expense,Food,55776,cash,Coffee,Sunday,3,True,-55776
+2025-07-20,expense,Bills,93641,cash,Mobile recharge,Sunday,3,True,-93641
+2025-07-21,expense,Shopping,52502,cash,Personal items,Monday,3,False,-52502
+2025-07-21,expense,Food,58739,cash,Restaurant meal,Monday,3,False,-58739
+2025-07-21,expense,Food,12598,cash,Coffee,Monday,3,False,-12598
+2025-07-21,expense,Shopping,134677,cash,Electronics accessory,Monday,3,False,-134677
+2025-07-22,expense,Transport,10407,cash,Taxi ride,Tuesday,4,False,-10407
+2025-07-22,expense,Transport,11861,transfer,Fuel,Tuesday,4,False,-11861
+2025-07-22,expense,Food,5124,cash,Snacks,Tuesday,4,False,-5124
+2025-07-23,expense,Bills,59348,cash,Water bill,Wednesday,4,False,-59348
+2025-07-23,expense,Bills,159031,cash,Mobile recharge,Wednesday,4,False,-159031
+2025-07-23,expense,Bills,132703,cash,Electricity bill,Wednesday,4,False,-132703
+2025-07-24,expense,Transport,8260,card,Bus fare,Thursday,4,False,-8260
+2025-07-24,expense,Transport,7637,card,Bus fare,Thursday,4,False,-7637
+2025-07-24,expense,Food,5089,card,Snacks,Thursday,4,False,-5089
+2025-07-24,expense,Shopping,133654,cash,Electronics accessory,Thursday,4,False,-133654
+2025-07-25,expense,Shopping,112193,card,House supplies,Friday,4,False,-112193
+2025-07-25,expense,Shopping,15976,cash,Gifts,Friday,4,False,-15976
+2025-07-25,expense,Shopping,71492,cash,Personal items,Friday,4,False,-71492
+2025-07-25,expense,Transport,16049,transfer,Taxi ride,Friday,4,False,-16049
+2025-07-26,expense,Bills,36627,cash,Rent share,Saturday,4,True,-36627
+2025-07-26,expense,Shopping,135968,transfer,House supplies,Saturday,4,True,-135968
+2025-07-26,expense,Transport,12331,cash,Fuel,Saturday,4,True,-12331
+2025-07-26,expense,Transport,8148,cash,Bus fare,Saturday,4,True,-8148
+2025-07-27,expense,Bills,55969,cash,Rent share,Sunday,4,True,-55969
+2025-07-27,expense,Food,39979,card,Coffee,Sunday,4,True,-39979
+2025-07-27,expense,Shopping,24381,transfer,Clothes,Sunday,4,True,-24381
+2025-07-27,expense,Transport,20032,cash,Parking,Sunday,4,True,-20032
+2025-07-28,expense,Bills,38702,cash,Water bill,Monday,4,False,-38702
+2025-07-28,expense,Transport,23105,cash,Bus fare,Monday,4,False,-23105
+2025-07-28,expense,Food,24437,card,Coffee,Monday,4,False,-24437
+2025-07-29,expense,Shopping,41187,cash,Gifts,Tuesday,5,False,-41187
+2025-07-29,expense,Transport,11884,cash,Parking,Tuesday,5,False,-11884
+2025-07-29,expense,Shopping,45332,cash,House supplies,Tuesday,5,False,-45332
+2025-07-30,expense,Food,45939,cash,Restaurant meal,Wednesday,5,False,-45939
+2025-07-30,expense,Food,30905,cash,Snacks,Wednesday,5,False,-30905
+2025-07-31,expense,Food,22674,cash,Restaurant meal,Thursday,5,False,-22674
+2025-07-31,expense,Food,50342,cash,Grocery items,Thursday,5,False,-50342
+2025-07-31,expense,Bills,95098,cash,Electricity bill,Thursday,5,False,-95098
+2025-08-01,income,Income,1200000,transfer,Monthly salary,Friday,1,False,1200000
+2025-08-01,expense,Transport,24688,cash,Car maintenance,Friday,1,False,-24688
+2025-08-01,expense,Transport,11655,cash,Car maintenance,Friday,1,False,-11655
+2025-08-01,expense,Bills,40544,transfer,Rent share,Friday,1,False,-40544
+2025-08-01,expense,Food,61486,cash,Vegetables & fruits,Friday,1,False,-61486
+2025-08-02,expense,Bills,102761,card,Water bill,Saturday,1,True,-102761
+2025-08-02,expense,Food,63969,cash,Vegetables & fruits,Saturday,1,True,-63969
+2025-08-02,expense,Bills,81800,cash,Mobile recharge,Saturday,1,True,-81800
+2025-08-03,expense,Transport,6108,cash,Taxi ride,Sunday,1,True,-6108
+2025-08-03,expense,Shopping,119230,cash,House supplies,Sunday,1,True,-119230
+2025-08-03,expense,Food,33267,online,Restaurant meal,Sunday,1,True,-33267
+2025-08-04,expense,Food,64106,cash,Restaurant meal,Monday,1,False,-64106
+2025-08-04,expense,Food,6797,cash,Grocery items,Monday,1,False,-6797
+2025-08-04,expense,Shopping,9106,cash,Electronics accessory,Monday,1,False,-9106
+2025-08-05,expense,Food,63239,cash,Snacks,Tuesday,1,False,-63239
+2025-08-05,expense,Transport,25953,cash,Fuel,Tuesday,1,False,-25953
+2025-08-05,expense,Shopping,78055,online,Clothes,Tuesday,1,False,-78055
+2025-08-05,expense,Transport,7221,cash,Taxi ride,Tuesday,1,False,-7221
+2025-08-06,expense,Transport,22002,cash,Car maintenance,Wednesday,1,False,-22002
+2025-08-06,expense,Food,34924,cash,Coffee,Wednesday,1,False,-34924
+2025-08-07,expense,Transport,11946,cash,Taxi ride,Thursday,1,False,-11946
+2025-08-07,expense,Bills,157156,cash,Electricity bill,Thursday,1,False,-157156
+2025-08-07,expense,Transport,7987,card,Bus fare,Thursday,1,False,-7987
+2025-08-08,expense,Food,62104,transfer,Restaurant meal,Friday,2,False,-62104
+2025-08-08,expense,Transport,11631,transfer,Taxi ride,Friday,2,False,-11631
+2025-08-08,expense,Food,59296,cash,Vegetables & fruits,Friday,2,False,-59296
+2025-08-09,expense,Bills,135105,cash,Mobile recharge,Saturday,2,True,-135105
+2025-08-09,expense,Shopping,29497,cash,Electronics accessory,Saturday,2,True,-29497
+2025-08-10,expense,Food,8480,cash,Vegetables & fruits,Sunday,2,True,-8480
+2025-08-10,expense,Bills,65116,cash,Internet subscription,Sunday,2,True,-65116
+2025-08-10,expense,Food,50326,cash,Restaurant meal,Sunday,2,True,-50326
+2025-08-11,expense,Food,6001,cash,Restaurant meal,Monday,2,False,-6001
+2025-08-11,expense,Food,24003,cash,Coffee,Monday,2,False,-24003
+2025-08-11,expense,Transport,2705,cash,Fuel,Monday,2,False,-2705
+2025-08-11,expense,Transport,23186,online,Fuel,Monday,2,False,-23186
+2025-08-12,expense,Transport,3904,card,Car maintenance,Tuesday,2,False,-3904
+2025-08-12,expense,Transport,15409,cash,Parking,Tuesday,2,False,-15409
+2025-08-12,expense,Food,11431,transfer,Coffee,Tuesday,2,False,-11431
+2025-08-12,expense,Bills,143473,card,Electricity bill,Tuesday,2,False,-143473
+2025-08-13,expense,Shopping,20453,cash,House supplies,Wednesday,2,False,-20453
+2025-08-13,expense,Bills,30297,transfer,Water bill,Wednesday,2,False,-30297
+2025-08-13,expense,Food,52752,cash,Snacks,Wednesday,2,False,-52752
+2025-08-14,expense,Food,44213,cash,Snacks,Thursday,2,False,-44213
+2025-08-14,expense,Food,63242,cash,Restaurant meal,Thursday,2,False,-63242
+2025-08-14,expense,Transport,3351,cash,Parking,Thursday,2,False,-3351
+2025-08-14,expense,Food,56527,cash,Vegetables & fruits,Thursday,2,False,-56527
+2025-08-15,expense,Transport,11178,cash,Car maintenance,Friday,3,False,-11178
+2025-08-15,expense,Transport,11854,cash,Bus fare,Friday,3,False,-11854
+2025-08-15,expense,Food,29217,transfer,Vegetables & fruits,Friday,3,False,-29217
+2025-08-15,expense,Transport,9188,online,Taxi ride,Friday,3,False,-9188
+2025-08-16,expense,Shopping,81701,transfer,House supplies,Saturday,3,True,-81701
+2025-08-16,expense,Shopping,48039,cash,Personal items,Saturday,3,True,-48039
+2025-08-16,expense,Food,14127,cash,Vegetables & fruits,Saturday,3,True,-14127
+2025-08-16,expense,Transport,11891,transfer,Bus fare,Saturday,3,True,-11891
+2025-08-17,expense,Bills,34121,cash,Mobile recharge,Sunday,3,True,-34121
+2025-08-17,expense,Shopping,75616,cash,House supplies,Sunday,3,True,-75616
+2025-08-18,expense,Food,19783,cash,Grocery items,Monday,3,False,-19783
+2025-08-18,expense,Shopping,23920,transfer,Personal items,Monday,3,False,-23920
+2025-08-18,expense,Shopping,72810,cash,Personal items,Monday,3,False,-72810
+2025-08-19,expense,Shopping,21747,card,Electronics accessory,Tuesday,3,False,-21747
+2025-08-19,expense,Transport,4457,cash,Bus fare,Tuesday,3,False,-4457
+2025-08-19,expense,Shopping,130711,online,Clothes,Tuesday,3,False,-130711
+2025-08-19,expense,Transport,10812,cash,Car maintenance,Tuesday,3,False,-10812
+2025-08-20,expense,Transport,26051,transfer,Fuel,Wednesday,3,False,-26051
+2025-08-20,expense,Food,41357,cash,Grocery items,Wednesday,3,False,-41357
+2025-08-20,expense,Shopping,23377,cash,Gifts,Wednesday,3,False,-23377
+2025-08-21,expense,Food,43983,card,Snacks,Thursday,3,False,-43983
+2025-08-21,expense,Shopping,26014,cash,Electronics accessory,Thursday,3,False,-26014
+2025-08-21,expense,Bills,82093,cash,Mobile recharge,Thursday,3,False,-82093
+2025-08-22,expense,Food,37146,cash,Restaurant meal,Friday,4,False,-37146
+2025-08-22,expense,Transport,7267,cash,Taxi ride,Friday,4,False,-7267
+2025-08-23,expense,Transport,19554,cash,Parking,Saturday,4,True,-19554
+2025-08-23,expense,Transport,23612,cash,Fuel,Saturday,4,True,-23612
+2025-08-24,expense,Shopping,128364,cash,Gifts,Sunday,4,True,-128364
+2025-08-24,expense,Transport,21907,transfer,Bus fare,Sunday,4,True,-21907
+2025-08-24,expense,Shopping,79099,cash,Electronics accessory,Sunday,4,True,-79099
+2025-08-25,expense,Transport,4597,transfer,Taxi ride,Monday,4,False,-4597
+2025-08-25,expense,Food,34968,transfer,Vegetables & fruits,Monday,4,False,-34968
+2025-08-26,expense,Bills,106328,cash,Rent share,Tuesday,4,False,-106328
+2025-08-26,expense,Bills,40350,cash,Mobile recharge,Tuesday,4,False,-40350
+2025-08-26,expense,Bills,49140,cash,Rent share,Tuesday,4,False,-49140
+2025-08-26,expense,Shopping,72464,cash,Personal items,Tuesday,4,False,-72464
+2025-08-27,expense,Bills,77548,transfer,Internet subscription,Wednesday,4,False,-77548
+2025-08-27,expense,Food,16187,cash,Grocery items,Wednesday,4,False,-16187
+2025-08-27,expense,Food,63296,transfer,Snacks,Wednesday,4,False,-63296
+2025-08-27,expense,Shopping,88588,cash,Gifts,Wednesday,4,False,-88588
+2025-08-28,expense,Food,41622,cash,Grocery items,Thursday,4,False,-41622
+2025-08-28,expense,Bills,173110,online,Water bill,Thursday,4,False,-173110
+2025-08-29,expense,Transport,23182,cash,Taxi ride,Friday,5,False,-23182
+2025-08-29,expense,Transport,11090,cash,Bus fare,Friday,5,False,-11090
+2025-08-30,expense,Bills,153119,cash,Internet subscription,Saturday,5,True,-153119
+2025-08-30,expense,Shopping,8398,cash,House supplies,Saturday,5,True,-8398
+2025-08-30,expense,Shopping,27519,cash,Clothes,Saturday,5,True,-27519
+2025-08-31,expense,Transport,23394,cash,Parking,Sunday,5,True,-23394
+2025-08-31,expense,Shopping,16841,cash,Gifts,Sunday,5,True,-16841
+2025-09-01,income,Income,1200000,transfer,Monthly salary,Monday,1,False,1200000
+2025-09-01,expense,Shopping,24145,cash,House supplies,Monday,1,False,-24145
+2025-09-01,expense,Food,29650,cash,Snacks,Monday,1,False,-29650
+2025-09-02,expense,Shopping,57729,cash,House supplies,Tuesday,1,False,-57729
+2025-09-02,expense,Food,46075,card,Vegetables & fruits,Tuesday,1,False,-46075
+2025-09-03,expense,Transport,21529,transfer,Taxi ride,Wednesday,1,False,-21529
+2025-09-03,expense,Food,61851,transfer,Restaurant meal,Wednesday,1,False,-61851
+2025-09-03,expense,Food,4094,card,Grocery items,Wednesday,1,False,-4094
+2025-09-04,expense,Food,54967,cash,Snacks,Thursday,1,False,-54967
+2025-09-04,expense,Food,37444,cash,Restaurant meal,Thursday,1,False,-37444
+2025-09-04,expense,Food,52527,cash,Grocery items,Thursday,1,False,-52527
+2025-09-04,expense,Shopping,74087,online,Personal items,Thursday,1,False,-74087
+2025-09-05,expense,Shopping,46352,card,Personal items,Friday,1,False,-46352
+2025-09-05,expense,Food,10842,transfer,Coffee,Friday,1,False,-10842
+2025-09-06,expense,Transport,9372,cash,Car maintenance,Saturday,1,True,-9372
+2025-09-06,expense,Transport,10553,cash,Parking,Saturday,1,True,-10553
+2025-09-06,expense,Transport,12221,cash,Parking,Saturday,1,True,-12221
+2025-09-06,expense,Transport,26418,cash,Bus fare,Saturday,1,True,-26418
+2025-09-07,expense,Bills,40164,cash,Electricity bill,Sunday,1,True,-40164
+2025-09-07,expense,Shopping,83330,cash,House supplies,Sunday,1,True,-83330
+2025-09-08,expense,Shopping,108617,transfer,House supplies,Monday,2,False,-108617
+2025-09-08,expense,Food,8383,cash,Restaurant meal,Monday,2,False,-8383
+2025-09-09,expense,Transport,29192,cash,Fuel,Tuesday,2,False,-29192
+2025-09-09,expense,Food,34740,cash,Grocery items,Tuesday,2,False,-34740
+2025-09-09,expense,Bills,119835,transfer,Mobile recharge,Tuesday,2,False,-119835
+2025-09-09,expense,Shopping,99310,card,Gifts,Tuesday,2,False,-99310
+2025-09-10,expense,Food,53152,cash,Snacks,Wednesday,2,False,-53152
+2025-09-10,expense,Transport,28094,transfer,Parking,Wednesday,2,False,-28094
+2025-09-10,expense,Food,63450,cash,Grocery items,Wednesday,2,False,-63450
+2025-09-11,expense,Transport,29347,cash,Bus fare,Thursday,2,False,-29347
+2025-09-11,expense,Food,55895,cash,Vegetables & fruits,Thursday,2,False,-55895
+2025-09-11,expense,Food,9995,transfer,Grocery items,Thursday,2,False,-9995
+2025-09-12,expense,Shopping,20795,cash,Clothes,Friday,2,False,-20795
+2025-09-12,expense,Bills,142389,transfer,Rent share,Friday,2,False,-142389
+2025-09-12,expense,Food,47819,cash,Snacks,Friday,2,False,-47819
+2025-09-12,expense,Bills,74981,transfer,Internet subscription,Friday,2,False,-74981
+2025-09-13,expense,Transport,12641,cash,Parking,Saturday,2,True,-12641
+2025-09-13,expense,Bills,25991,cash,Electricity bill,Saturday,2,True,-25991
+2025-09-13,expense,Transport,11459,cash,Bus fare,Saturday,2,True,-11459
+2025-09-13,expense,Bills,34004,cash,Internet subscription,Saturday,2,True,-34004
+2025-09-14,expense,Transport,18323,transfer,Car maintenance,Sunday,2,True,-18323
+2025-09-14,expense,Bills,121837,cash,Internet subscription,Sunday,2,True,-121837
+2025-09-14,expense,Bills,118960,cash,Internet subscription,Sunday,2,True,-118960
+2025-09-14,expense,Bills,67339,cash,Rent share,Sunday,2,True,-67339
+2025-09-15,expense,Bills,27324,transfer,Water bill,Monday,3,False,-27324
+2025-09-15,expense,Food,27179,cash,Snacks,Monday,3,False,-27179
+2025-09-15,expense,Transport,10284,cash,Fuel,Monday,3,False,-10284
+2025-09-15,expense,Food,55075,transfer,Vegetables & fruits,Monday,3,False,-55075
+2025-09-16,expense,Transport,16553,cash,Taxi ride,Tuesday,3,False,-16553
+2025-09-16,expense,Food,26776,online,Restaurant meal,Tuesday,3,False,-26776
+2025-09-16,expense,Food,34814,cash,Vegetables & fruits,Tuesday,3,False,-34814
+2025-09-17,expense,Transport,25951,transfer,Fuel,Wednesday,3,False,-25951
+2025-09-17,expense,Shopping,113785,cash,Electronics accessory,Wednesday,3,False,-113785
+2025-09-18,expense,Shopping,88343,card,Gifts,Thursday,3,False,-88343
+2025-09-18,expense,Transport,16619,cash,Car maintenance,Thursday,3,False,-16619
+2025-09-18,expense,Food,16916,transfer,Coffee,Thursday,3,False,-16916
+2025-09-18,expense,Shopping,73815,cash,Gifts,Thursday,3,False,-73815
+2025-09-19,expense,Shopping,87053,online,Electronics accessory,Friday,3,False,-87053
+2025-09-19,expense,Shopping,15412,cash,Personal items,Friday,3,False,-15412
+2025-09-19,expense,Food,57712,cash,Snacks,Friday,3,False,-57712
+2025-09-19,expense,Food,57199,cash,Grocery items,Friday,3,False,-57199
+2025-09-20,expense,Shopping,38720,cash,Clothes,Saturday,3,True,-38720
+2025-09-20,expense,Food,13955,cash,Vegetables & fruits,Saturday,3,True,-13955
+2025-09-20,expense,Food,26453,cash,Restaurant meal,Saturday,3,True,-26453
+2025-09-20,expense,Transport,27541,cash,Parking,Saturday,3,True,-27541
+2025-09-21,expense,Shopping,89370,transfer,Gifts,Sunday,3,True,-89370
+2025-09-21,expense,Shopping,77512,online,House supplies,Sunday,3,True,-77512
+2025-09-21,expense,Bills,165933,transfer,Mobile recharge,Sunday,3,True,-165933
+2025-09-21,expense,Bills,47210,cash,Electricity bill,Sunday,3,True,-47210
+2025-09-22,expense,Transport,16272,cash,Parking,Monday,4,False,-16272
+2025-09-22,expense,Transport,12507,online,Bus fare,Monday,4,False,-12507
+2025-09-22,expense,Transport,6841,cash,Parking,Monday,4,False,-6841
+2025-09-22,expense,Food,21931,cash,Restaurant meal,Monday,4,False,-21931
+2025-09-23,expense,Bills,110065,cash,Water bill,Tuesday,4,False,-110065
+2025-09-23,expense,Shopping,39456,cash,Clothes,Tuesday,4,False,-39456
+2025-09-23,expense,Food,57247,cash,Grocery items,Tuesday,4,False,-57247
+2025-09-24,expense,Bills,130138,cash,Mobile recharge,Wednesday,4,False,-130138
+2025-09-24,expense,Transport,3155,cash,Bus fare,Wednesday,4,False,-3155
+2025-09-24,expense,Bills,126524,online,Electricity bill,Wednesday,4,False,-126524
+2025-09-25,expense,Transport,15317,cash,Parking,Thursday,4,False,-15317
+2025-09-25,expense,Bills,49569,transfer,Water bill,Thursday,4,False,-49569
+2025-09-26,expense,Food,56396,cash,Coffee,Friday,4,False,-56396
+2025-09-26,expense,Shopping,33690,cash,Gifts,Friday,4,False,-33690
+2025-09-26,expense,Food,31160,cash,Restaurant meal,Friday,4,False,-31160
+2025-09-26,expense,Shopping,29911,cash,House supplies,Friday,4,False,-29911
+2025-09-27,expense,Bills,158775,cash,Internet subscription,Saturday,4,True,-158775
+2025-09-27,expense,Shopping,104764,cash,Electronics accessory,Saturday,4,True,-104764
+2025-09-27,expense,Bills,82385,online,Mobile recharge,Saturday,4,True,-82385
+2025-09-28,expense,Transport,28618,transfer,Bus fare,Sunday,4,True,-28618
+2025-09-28,expense,Bills,29895,cash,Mobile recharge,Sunday,4,True,-29895
+2025-09-28,expense,Transport,19197,cash,Car maintenance,Sunday,4,True,-19197
+2025-09-29,expense,Transport,16784,transfer,Bus fare,Monday,5,False,-16784
+2025-09-29,expense,Shopping,19389,cash,Clothes,Monday,5,False,-19389
+2025-09-29,expense,Shopping,47567,card,House supplies,Monday,5,False,-47567
+2025-09-30,expense,Shopping,116644,cash,Personal items,Tuesday,5,False,-116644
+2025-09-30,expense,Shopping,131000,cash,House supplies,Tuesday,5,False,-131000
+2025-09-30,expense,Shopping,63769,cash,Clothes,Tuesday,5,False,-63769
+2025-10-01,income,Income,1200000,transfer,Monthly salary,Wednesday,1,False,1200000
+2025-10-01,expense,Food,54831,cash,Vegetables & fruits,Wednesday,1,False,-54831
+2025-10-01,expense,Food,46636,cash,Snacks,Wednesday,1,False,-46636
+2025-10-01,expense,Transport,8763,cash,Bus fare,Wednesday,1,False,-8763
+2025-10-02,expense,Food,54199,transfer,Vegetables & fruits,Thursday,1,False,-54199
+2025-10-02,expense,Bills,114104,card,Electricity bill,Thursday,1,False,-114104
+2025-10-03,expense,Shopping,129756,cash,Gifts,Friday,1,False,-129756
+2025-10-03,expense,Bills,51333,online,Rent share,Friday,1,False,-51333
+2025-10-04,expense,Bills,90125,cash,Rent share,Saturday,1,True,-90125
+2025-10-04,expense,Bills,168677,cash,Mobile recharge,Saturday,1,True,-168677
+2025-10-05,expense,Food,46068,cash,Restaurant meal,Sunday,1,True,-46068
+2025-10-05,expense,Food,38495,cash,Restaurant meal,Sunday,1,True,-38495
+2025-10-05,expense,Shopping,82318,card,Electronics accessory,Sunday,1,True,-82318
+2025-10-06,expense,Transport,3963,cash,Fuel,Monday,1,False,-3963
+2025-10-06,expense,Transport,13162,cash,Fuel,Monday,1,False,-13162
+2025-10-06,expense,Bills,115209,cash,Internet subscription,Monday,1,False,-115209
+2025-10-07,expense,Shopping,94361,card,Electronics accessory,Tuesday,1,False,-94361
+2025-10-07,expense,Bills,67324,cash,Internet subscription,Tuesday,1,False,-67324
+2025-10-07,expense,Transport,20625,transfer,Fuel,Tuesday,1,False,-20625
+2025-10-08,expense,Bills,62011,online,Electricity bill,Wednesday,2,False,-62011
+2025-10-08,expense,Food,27259,card,Restaurant meal,Wednesday,2,False,-27259
+2025-10-08,expense,Transport,29634,card,Taxi ride,Wednesday,2,False,-29634
+2025-10-09,expense,Shopping,132571,card,Clothes,Thursday,2,False,-132571
+2025-10-09,expense,Food,55940,cash,Coffee,Thursday,2,False,-55940
+2025-10-10,expense,Bills,85118,cash,Mobile recharge,Friday,2,False,-85118
+2025-10-10,expense,Bills,163335,cash,Electricity bill,Friday,2,False,-163335
+2025-10-11,expense,Bills,36408,cash,Electricity bill,Saturday,2,True,-36408
+2025-10-11,expense,Shopping,117201,card,House supplies,Saturday,2,True,-117201
+2025-10-12,expense,Transport,8339,cash,Parking,Sunday,2,True,-8339
+2025-10-12,expense,Shopping,114583,cash,Gifts,Sunday,2,True,-114583
+2025-10-12,expense,Food,29030,cash,Restaurant meal,Sunday,2,True,-29030
+2025-10-12,expense,Transport,22742,transfer,Fuel,Sunday,2,True,-22742
+2025-10-13,expense,Transport,27167,cash,Taxi ride,Monday,2,False,-27167
+2025-10-13,expense,Shopping,34109,cash,Personal items,Monday,2,False,-34109
+2025-10-14,expense,Transport,9617,transfer,Taxi ride,Tuesday,2,False,-9617
+2025-10-14,expense,Food,39092,cash,Restaurant meal,Tuesday,2,False,-39092
+2025-10-14,expense,Transport,25643,cash,Fuel,Tuesday,2,False,-25643
+2025-10-15,expense,Transport,23582,cash,Bus fare,Wednesday,3,False,-23582
+2025-10-15,expense,Bills,171622,transfer,Electricity bill,Wednesday,3,False,-171622
+2025-10-15,expense,Food,36484,cash,Vegetables & fruits,Wednesday,3,False,-36484
+2025-10-15,expense,Food,38602,transfer,Vegetables & fruits,Wednesday,3,False,-38602
+2025-10-16,expense,Bills,159801,card,Water bill,Thursday,3,False,-159801
+2025-10-16,expense,Bills,40580,cash,Internet subscription,Thursday,3,False,-40580
+2025-10-16,expense,Transport,4028,online,Bus fare,Thursday,3,False,-4028
+2025-10-16,expense,Bills,94016,transfer,Internet subscription,Thursday,3,False,-94016
+2025-10-17,expense,Shopping,28352,transfer,House supplies,Friday,3,False,-28352
+2025-10-17,expense,Food,40739,cash,Restaurant meal,Friday,3,False,-40739
+2025-10-17,expense,Bills,110981,cash,Mobile recharge,Friday,3,False,-110981
+2025-10-17,expense,Shopping,77656,cash,House supplies,Friday,3,False,-77656
+2025-10-18,expense,Bills,41015,transfer,Water bill,Saturday,3,True,-41015
+2025-10-18,expense,Transport,17096,online,Bus fare,Saturday,3,True,-17096
+2025-10-18,expense,Food,27510,card,Coffee,Saturday,3,True,-27510
+2025-10-18,expense,Bills,36646,transfer,Electricity bill,Saturday,3,True,-36646
+2025-10-19,expense,Shopping,78485,transfer,Gifts,Sunday,3,True,-78485
+2025-10-19,expense,Transport,11434,cash,Parking,Sunday,3,True,-11434
+2025-10-19,expense,Bills,119359,cash,Internet subscription,Sunday,3,True,-119359
+2025-10-19,expense,Transport,19013,cash,Taxi ride,Sunday,3,True,-19013
+2025-10-20,expense,Bills,75960,cash,Electricity bill,Monday,3,False,-75960
+2025-10-20,expense,Food,57267,transfer,Snacks,Monday,3,False,-57267
+2025-10-20,expense,Food,6436,cash,Snacks,Monday,3,False,-6436
+2025-10-21,expense,Food,10618,cash,Vegetables & fruits,Tuesday,3,False,-10618
+2025-10-21,expense,Bills,129612,cash,Water bill,Tuesday,3,False,-129612
+2025-10-21,expense,Transport,26598,online,Parking,Tuesday,3,False,-26598
+2025-10-22,expense,Transport,22694,cash,Parking,Wednesday,4,False,-22694
+2025-10-22,expense,Food,31524,cash,Restaurant meal,Wednesday,4,False,-31524
+2025-10-22,expense,Bills,153093,transfer,Electricity bill,Wednesday,4,False,-153093
+2025-10-22,expense,Bills,124690,cash,Mobile recharge,Wednesday,4,False,-124690
+2025-10-23,expense,Transport,7324,cash,Car maintenance,Thursday,4,False,-7324
+2025-10-23,expense,Food,37177,cash,Snacks,Thursday,4,False,-37177
+2025-10-24,expense,Transport,7863,cash,Car maintenance,Friday,4,False,-7863
+2025-10-24,expense,Food,27194,cash,Restaurant meal,Friday,4,False,-27194
+2025-10-24,expense,Food,53717,cash,Snacks,Friday,4,False,-53717
+2025-10-24,expense,Bills,142495,online,Mobile recharge,Friday,4,False,-142495
+2025-10-25,expense,Transport,29439,cash,Bus fare,Saturday,4,True,-29439
+2025-10-25,expense,Bills,58275,cash,Electricity bill,Saturday,4,True,-58275
+2025-10-25,expense,Transport,13616,cash,Bus fare,Saturday,4,True,-13616
+2025-10-26,expense,Transport,13492,cash,Taxi ride,Sunday,4,True,-13492
+2025-10-26,expense,Shopping,10674,cash,Electronics accessory,Sunday,4,True,-10674
+2025-10-26,expense,Food,11227,cash,Grocery items,Sunday,4,True,-11227
+2025-10-26,expense,Bills,67558,cash,Electricity bill,Sunday,4,True,-67558
+2025-10-27,expense,Food,23192,cash,Snacks,Monday,4,False,-23192
+2025-10-27,expense,Food,32642,cash,Snacks,Monday,4,False,-32642
+2025-10-27,expense,Food,28972,online,Grocery items,Monday,4,False,-28972
+2025-10-28,expense,Food,10606,cash,Coffee,Tuesday,4,False,-10606
+2025-10-28,expense,Food,41227,online,Coffee,Tuesday,4,False,-41227
+2025-10-28,expense,Shopping,19673,online,Personal items,Tuesday,4,False,-19673
+2025-10-29,expense,Bills,44277,card,Electricity bill,Wednesday,5,False,-44277
+2025-10-29,expense,Transport,10603,online,Taxi ride,Wednesday,5,False,-10603
+2025-10-30,expense,Bills,83764,card,Electricity bill,Thursday,5,False,-83764
+2025-10-30,expense,Shopping,82951,transfer,Electronics accessory,Thursday,5,False,-82951
+2025-10-30,expense,Food,13100,cash,Grocery items,Thursday,5,False,-13100
+2025-10-31,expense,Transport,26566,transfer,Taxi ride,Friday,5,False,-26566
+2025-10-31,expense,Food,51466,cash,Vegetables & fruits,Friday,5,False,-51466
+2025-10-31,expense,Food,57291,transfer,Grocery items,Friday,5,False,-57291
+2025-10-31,expense,Shopping,87703,cash,House supplies,Friday,5,False,-87703
+2025-11-01,income,Income,1200000,transfer,Monthly salary,Saturday,1,True,1200000
+2025-11-01,expense,Transport,18468,cash,Parking,Saturday,1,True,-18468
+2025-11-01,expense,Bills,112286,card,Rent share,Saturday,1,True,-112286
+2025-11-01,expense,Bills,128359,cash,Water bill,Saturday,1,True,-128359
+2025-11-02,expense,Food,44050,online,Grocery items,Sunday,1,True,-44050
+2025-11-02,expense,Food,54835,transfer,Restaurant meal,Sunday,1,True,-54835
+2025-11-03,expense,Food,14287,online,Coffee,Monday,1,False,-14287
+2025-11-03,expense,Transport,26508,cash,Taxi ride,Monday,1,False,-26508
+2025-11-03,expense,Food,51378,cash,Snacks,Monday,1,False,-51378
+2025-11-03,expense,Bills,166574,cash,Internet subscription,Monday,1,False,-166574
+2025-11-04,expense,Food,45546,transfer,Vegetables & fruits,Tuesday,1,False,-45546
+2025-11-04,expense,Food,44011,cash,Vegetables & fruits,Tuesday,1,False,-44011
+2025-11-04,expense,Food,49336,cash,Snacks,Tuesday,1,False,-49336
+2025-11-05,expense,Food,37119,cash,Grocery items,Wednesday,1,False,-37119
+2025-11-05,expense,Food,43699,cash,Restaurant meal,Wednesday,1,False,-43699
+2025-11-05,expense,Transport,28056,cash,Bus fare,Wednesday,1,False,-28056
+2025-11-05,expense,Food,53991,cash,Coffee,Wednesday,1,False,-53991
+2025-11-06,expense,Bills,140285,cash,Internet subscription,Thursday,1,False,-140285
+2025-11-06,expense,Shopping,33416,cash,House supplies,Thursday,1,False,-33416
+2025-11-06,expense,Bills,102104,cash,Internet subscription,Thursday,1,False,-102104
+2025-11-06,expense,Food,60826,cash,Grocery items,Thursday,1,False,-60826
+2025-11-07,expense,Shopping,112394,cash,House supplies,Friday,1,False,-112394
+2025-11-07,expense,Food,32846,cash,Grocery items,Friday,1,False,-32846
+2025-11-07,expense,Transport,7882,online,Car maintenance,Friday,1,False,-7882
+2025-11-08,expense,Shopping,69691,transfer,Clothes,Saturday,2,True,-69691
+2025-11-08,expense,Bills,35820,transfer,Internet subscription,Saturday,2,True,-35820
+2025-11-09,expense,Food,39989,cash,Restaurant meal,Sunday,2,True,-39989
+2025-11-09,expense,Food,58247,transfer,Snacks,Sunday,2,True,-58247
+2025-11-09,expense,Bills,133219,cash,Rent share,Sunday,2,True,-133219
+2025-11-10,expense,Shopping,60597,transfer,Clothes,Monday,2,False,-60597
+2025-11-10,expense,Food,40151,cash,Snacks,Monday,2,False,-40151
+2025-11-10,expense,Food,14676,cash,Restaurant meal,Monday,2,False,-14676
+2025-11-10,expense,Food,27758,card,Restaurant meal,Monday,2,False,-27758
+2025-11-11,expense,Transport,18867,cash,Fuel,Tuesday,2,False,-18867
+2025-11-11,expense,Bills,64353,cash,Internet subscription,Tuesday,2,False,-64353
+2025-11-12,expense,Bills,114423,cash,Water bill,Wednesday,2,False,-114423
+2025-11-12,expense,Bills,61564,transfer,Rent share,Wednesday,2,False,-61564
+2025-11-12,expense,Food,31143,transfer,Snacks,Wednesday,2,False,-31143
+2025-11-12,expense,Food,16847,cash,Vegetables & fruits,Wednesday,2,False,-16847
+2025-11-13,expense,Shopping,92813,card,Personal items,Thursday,2,False,-92813
+2025-11-13,expense,Food,9950,cash,Grocery items,Thursday,2,False,-9950
+2025-11-14,expense,Bills,155785,cash,Electricity bill,Friday,2,False,-155785
+2025-11-14,expense,Transport,8452,cash,Bus fare,Friday,2,False,-8452
+2025-11-14,expense,Bills,46502,card,Electricity bill,Friday,2,False,-46502
+2025-11-14,expense,Food,23491,cash,Restaurant meal,Friday,2,False,-23491
+2025-11-15,expense,Food,28991,online,Grocery items,Saturday,3,True,-28991
+2025-11-15,expense,Bills,151443,transfer,Internet subscription,Saturday,3,True,-151443
+2025-11-15,expense,Transport,26334,card,Car maintenance,Saturday,3,True,-26334
+2025-11-15,expense,Food,24586,cash,Grocery items,Saturday,3,True,-24586
+2025-11-16,expense,Food,19231,transfer,Coffee,Sunday,3,True,-19231
+2025-11-16,expense,Food,53976,cash,Coffee,Sunday,3,True,-53976
+2025-11-16,expense,Food,60723,cash,Restaurant meal,Sunday,3,True,-60723
+2025-11-17,expense,Shopping,80179,online,House supplies,Monday,3,False,-80179
+2025-11-17,expense,Shopping,69445,cash,Clothes,Monday,3,False,-69445
+2025-11-17,expense,Shopping,19030,cash,Gifts,Monday,3,False,-19030
+2025-11-17,expense,Shopping,42014,cash,Electronics accessory,Monday,3,False,-42014
+2025-11-18,expense,Food,7648,cash,Coffee,Tuesday,3,False,-7648
+2025-11-18,expense,Shopping,101781,cash,Gifts,Tuesday,3,False,-101781
+2025-11-18,expense,Bills,28652,cash,Rent share,Tuesday,3,False,-28652
+2025-11-18,expense,Bills,130565,transfer,Electricity bill,Tuesday,3,False,-130565
+2025-11-19,expense,Transport,20380,transfer,Parking,Wednesday,3,False,-20380
+2025-11-19,expense,Bills,66944,cash,Water bill,Wednesday,3,False,-66944
+2025-11-19,expense,Food,13892,cash,Vegetables & fruits,Wednesday,3,False,-13892
+2025-11-20,expense,Transport,21136,cash,Taxi ride,Thursday,3,False,-21136
+2025-11-20,expense,Food,19435,transfer,Grocery items,Thursday,3,False,-19435
+2025-11-21,expense,Transport,28430,transfer,Bus fare,Friday,3,False,-28430
+2025-11-21,expense,Shopping,108454,card,Personal items,Friday,3,False,-108454
+2025-11-21,expense,Food,7465,transfer,Grocery items,Friday,3,False,-7465
+2025-11-21,expense,Food,26968,cash,Snacks,Friday,3,False,-26968
+2025-11-22,expense,Shopping,43804,cash,Electronics accessory,Saturday,4,True,-43804
+2025-11-22,expense,Food,6066,transfer,Coffee,Saturday,4,True,-6066
+2025-11-23,expense,Food,56364,cash,Restaurant meal,Sunday,4,True,-56364
+2025-11-23,expense,Food,25585,cash,Restaurant meal,Sunday,4,True,-25585
+2025-11-24,expense,Food,55992,card,Grocery items,Monday,4,False,-55992
+2025-11-24,expense,Food,32414,online,Restaurant meal,Monday,4,False,-32414
+2025-11-25,expense,Food,62826,cash,Grocery items,Tuesday,4,False,-62826
+2025-11-25,expense,Bills,132050,cash,Internet subscription,Tuesday,4,False,-132050
+2025-11-26,expense,Food,22135,transfer,Vegetables & fruits,Wednesday,4,False,-22135
+2025-11-26,expense,Bills,51961,online,Water bill,Wednesday,4,False,-51961
+2025-11-27,expense,Food,45358,cash,Grocery items,Thursday,4,False,-45358
+2025-11-27,expense,Shopping,74954,online,Gifts,Thursday,4,False,-74954
+2025-11-27,expense,Transport,9205,cash,Parking,Thursday,4,False,-9205
+2025-11-28,expense,Food,61300,card,Coffee,Friday,4,False,-61300
+2025-11-28,expense,Food,12796,cash,Grocery items,Friday,4,False,-12796
+2025-11-29,expense,Food,15896,transfer,Restaurant meal,Saturday,5,True,-15896
+2025-11-29,expense,Transport,20140,cash,Fuel,Saturday,5,True,-20140
+2025-11-30,expense,Food,36761,card,Coffee,Sunday,5,True,-36761
+2025-11-30,expense,Food,53578,cash,Vegetables & fruits,Sunday,5,True,-53578
+2025-11-30,expense,Shopping,77300,cash,Electronics accessory,Sunday,5,True,-77300
+2025-12-01,income,Income,1200000,transfer,Monthly salary,Monday,1,False,1200000
+2025-12-01,income,Income,231718,transfer,Side income,Monday,1,False,231718
+2025-12-01,expense,Food,42240,transfer,Restaurant meal,Monday,1,False,-42240
+2025-12-01,expense,Food,63203,cash,Coffee,Monday,1,False,-63203
+2025-12-02,expense,Bills,47697,cash,Rent share,Tuesday,1,False,-47697
+2025-12-02,expense,Transport,9678,transfer,Taxi ride,Tuesday,1,False,-9678
+2025-12-02,expense,Food,50355,transfer,Grocery items,Tuesday,1,False,-50355
+2025-12-02,expense,Food,12479,transfer,Vegetables & fruits,Tuesday,1,False,-12479
+2025-12-03,expense,Food,18516,cash,Grocery items,Wednesday,1,False,-18516
+2025-12-03,expense,Bills,81795,cash,Internet subscription,Wednesday,1,False,-81795
+2025-12-03,expense,Transport,2432,online,Taxi ride,Wednesday,1,False,-2432
+2025-12-03,expense,Transport,8766,cash,Fuel,Wednesday,1,False,-8766
+2025-12-04,expense,Shopping,50514,cash,Electronics accessory,Thursday,1,False,-50514
+2025-12-04,expense,Transport,17574,cash,Fuel,Thursday,1,False,-17574
+2025-12-04,expense,Shopping,113851,card,Clothes,Thursday,1,False,-113851
+2025-12-04,expense,Food,32826,online,Snacks,Thursday,1,False,-32826
+2025-12-05,expense,Food,20831,cash,Vegetables & fruits,Friday,1,False,-20831
+2025-12-05,expense,Transport,24675,cash,Fuel,Friday,1,False,-24675
+2025-12-05,expense,Food,15890,cash,Grocery items,Friday,1,False,-15890
+2025-12-06,expense,Food,46463,cash,Grocery items,Saturday,1,True,-46463
+2025-12-06,expense,Transport,8386,cash,Parking,Saturday,1,True,-8386
+2025-12-07,expense,Shopping,30874,transfer,Gifts,Sunday,1,True,-30874
+2025-12-07,expense,Food,38692,transfer,Coffee,Sunday,1,True,-38692
+2025-12-07,expense,Shopping,31705,cash,Personal items,Sunday,1,True,-31705
+2025-12-07,expense,Bills,47022,cash,Electricity bill,Sunday,1,True,-47022
+2025-12-08,expense,Food,44543,cash,Vegetables & fruits,Monday,2,False,-44543
+2025-12-08,expense,Food,42962,cash,Grocery items,Monday,2,False,-42962
+2025-12-08,expense,Food,29684,cash,Grocery items,Monday,2,False,-29684
+2025-12-09,expense,Transport,17275,cash,Bus fare,Tuesday,2,False,-17275
+2025-12-09,expense,Bills,26565,transfer,Rent share,Tuesday,2,False,-26565
+2025-12-09,expense,Transport,28787,cash,Bus fare,Tuesday,2,False,-28787
+2025-12-10,expense,Shopping,11495,cash,Electronics accessory,Wednesday,2,False,-11495
+2025-12-10,expense,Food,64963,transfer,Restaurant meal,Wednesday,2,False,-64963
+2025-12-11,expense,Food,32748,cash,Snacks,Thursday,2,False,-32748
+2025-12-11,expense,Food,11085,online,Vegetables & fruits,Thursday,2,False,-11085
+2025-12-12,expense,Bills,109638,transfer,Rent share,Friday,2,False,-109638
+2025-12-12,expense,Food,10208,cash,Coffee,Friday,2,False,-10208
+2025-12-12,expense,Food,22984,cash,Vegetables & fruits,Friday,2,False,-22984
+2025-12-13,expense,Bills,56048,cash,Rent share,Saturday,2,True,-56048
+2025-12-13,expense,Bills,39333,cash,Rent share,Saturday,2,True,-39333
+2025-12-13,expense,Bills,114768,online,Electricity bill,Saturday,2,True,-114768
+2025-12-14,expense,Food,20773,cash,Restaurant meal,Sunday,2,True,-20773
+2025-12-14,expense,Food,36004,card,Vegetables & fruits,Sunday,2,True,-36004
+2025-12-14,expense,Transport,10185,cash,Taxi ride,Sunday,2,True,-10185
+2025-12-15,expense,Shopping,100233,transfer,Personal items,Monday,3,False,-100233
+2025-12-15,expense,Food,54548,cash,Coffee,Monday,3,False,-54548
+2025-12-15,expense,Food,57833,cash,Coffee,Monday,3,False,-57833
+2025-12-16,expense,Food,6004,cash,Snacks,Tuesday,3,False,-6004
+2025-12-16,expense,Food,38196,cash,Snacks,Tuesday,3,False,-38196
+2025-12-16,expense,Food,45354,transfer,Vegetables & fruits,Tuesday,3,False,-45354
+2025-12-16,expense,Transport,10905,cash,Fuel,Tuesday,3,False,-10905
+2025-12-17,expense,Bills,115890,cash,Water bill,Wednesday,3,False,-115890
+2025-12-17,expense,Food,28285,cash,Grocery items,Wednesday,3,False,-28285
+2025-12-17,expense,Food,4145,cash,Vegetables & fruits,Wednesday,3,False,-4145
+2025-12-18,expense,Food,56165,card,Snacks,Thursday,3,False,-56165
+2025-12-18,expense,Transport,14737,online,Taxi ride,Thursday,3,False,-14737
+2025-12-18,expense,Transport,10028,card,Bus fare,Thursday,3,False,-10028
+2025-12-18,expense,Food,60265,cash,Snacks,Thursday,3,False,-60265
+2025-12-19,expense,Bills,170519,cash,Rent share,Friday,3,False,-170519
+2025-12-19,expense,Transport,5995,cash,Fuel,Friday,3,False,-5995
+2025-12-20,expense,Shopping,100219,card,Electronics accessory,Saturday,3,True,-100219
+2025-12-20,expense,Food,8561,cash,Grocery items,Saturday,3,True,-8561
+2025-12-20,expense,Bills,132253,cash,Rent share,Saturday,3,True,-132253
+2025-12-21,expense,Shopping,73716,card,Electronics accessory,Sunday,3,True,-73716
+2025-12-21,expense,Transport,24858,cash,Parking,Sunday,3,True,-24858
+2025-12-22,expense,Transport,9047,cash,Bus fare,Monday,4,False,-9047
+2025-12-22,expense,Food,35181,cash,Snacks,Monday,4,False,-35181
+2025-12-22,expense,Bills,71424,cash,Mobile recharge,Monday,4,False,-71424
+2025-12-23,expense,Bills,68916,cash,Rent share,Tuesday,4,False,-68916
+2025-12-23,expense,Food,20687,cash,Coffee,Tuesday,4,False,-20687
+2025-12-23,expense,Shopping,53653,cash,House supplies,Tuesday,4,False,-53653
+2025-12-24,expense,Shopping,19399,cash,Electronics accessory,Wednesday,4,False,-19399
+2025-12-24,expense,Shopping,137968,cash,Gifts,Wednesday,4,False,-137968
+2025-12-24,expense,Shopping,18025,cash,Electronics accessory,Wednesday,4,False,-18025
+2025-12-24,expense,Transport,11205,cash,Bus fare,Wednesday,4,False,-11205
+2025-12-25,expense,Bills,143048,cash,Internet subscription,Thursday,4,False,-143048
+2025-12-25,expense,Food,57786,card,Restaurant meal,Thursday,4,False,-57786
+2025-12-26,expense,Bills,77183,cash,Rent share,Friday,4,False,-77183
+2025-12-26,expense,Bills,152354,transfer,Rent share,Friday,4,False,-152354
+2025-12-27,expense,Food,42695,online,Coffee,Saturday,4,True,-42695
+2025-12-27,expense,Food,16133,cash,Vegetables & fruits,Saturday,4,True,-16133
+2025-12-27,expense,Shopping,18414,cash,Gifts,Saturday,4,True,-18414
+2025-12-28,expense,Food,52163,transfer,Grocery items,Sunday,4,True,-52163
+2025-12-28,expense,Food,41802,cash,Snacks,Sunday,4,True,-41802
+2025-12-28,expense,Bills,73106,online,Rent share,Sunday,4,True,-73106
+2025-12-29,expense,Transport,12501,cash,Bus fare,Monday,5,False,-12501
+2025-12-29,expense,Transport,24586,card,Parking,Monday,5,False,-24586
+2025-12-29,expense,Transport,6845,cash,Parking,Monday,5,False,-6845
+2025-12-30,expense,Bills,93533,cash,Mobile recharge,Tuesday,5,False,-93533
+2025-12-30,expense,Shopping,100397,transfer,Clothes,Tuesday,5,False,-100397
+2025-12-31,expense,Bills,178862,card,Internet subscription,Wednesday,5,False,-178862
+2025-12-31,expense,Food,36291,cash,Coffee,Wednesday,5,False,-36291
+2025-12-31,expense,Transport,18001,transfer,Parking,Wednesday,5,False,-18001
+2025-12-31,expense,Transport,22945,cash,Car maintenance,Wednesday,5,False,-22945
 2026-01-01,income,Income,1200000,transfer,Monthly salary,Thursday,1,False,1200000
+2026-01-01,income,Income,1200000,transfer,Monthly salary,Thursday,1,False,1200000
+2026-01-01,expense,Transport,13592,cash,Car maintenance,Thursday,1,False,-13592
+2026-01-01,expense,Food,34290,transfer,Coffee,Thursday,1,False,-34290
+2026-01-01,expense,Bills,130612,cash,Mobile recharge,Thursday,1,False,-130612
+2026-01-01,expense,Bills,173656,transfer,Internet subscription,Thursday,1,False,-173656
 2026-01-01,expense,Bills,85000,cash,Internet subscription,Thursday,1,False,-85000
+2026-01-02,expense,Shopping,120038,cash,House supplies,Friday,1,False,-120038
+2026-01-02,expense,Shopping,114899,cash,Gifts,Friday,1,False,-114899
+2026-01-02,expense,Bills,119525,cash,Rent share,Friday,1,False,-119525
+2026-01-02,expense,Bills,117339,cash,Electricity bill,Friday,1,False,-117339
 2026-01-02,expense,Food,18000,cash,Grocery items,Friday,1,False,-18000
 2026-01-02,expense,Transport,5000,cash,Taxi ride,Friday,1,False,-5000
+2026-01-03,expense,Food,30371,cash,Vegetables & fruits,Saturday,1,True,-30371
+2026-01-03,expense,Food,5005,cash,Grocery items,Saturday,1,True,-5005
+2026-01-03,expense,Shopping,29697,transfer,Clothes,Saturday,1,True,-29697
+2026-01-03,expense,Transport,24269,cash,Car maintenance,Saturday,1,True,-24269
 2026-01-03,expense,Shopping,25000,card,House supplies,Saturday,1,True,-25000
 2026-01-03,expense,Food,12000,cash,Breakfast,Saturday,1,True,-12000
+2026-01-04,expense,Food,48685,card,Snacks,Sunday,1,True,-48685
+2026-01-04,expense,Food,31254,cash,Restaurant meal,Sunday,1,True,-31254
+2026-01-04,expense,Shopping,94234,cash,Personal items,Sunday,1,True,-94234
 2026-01-04,expense,Transport,8000,cash,Fuel,Sunday,1,True,-8000
 2026-01-04,expense,Bills,30000,transfer,Mobile recharge,Sunday,1,True,-30000
+2026-01-05,expense,Food,64856,cash,Grocery items,Monday,1,False,-64856
+2026-01-05,expense,Shopping,76537,cash,House supplies,Monday,1,False,-76537
+2026-01-05,expense,Shopping,113482,cash,Personal items,Monday,1,False,-113482
+2026-01-05,expense,Transport,27923,cash,Bus fare,Monday,1,False,-27923
 2026-01-05,expense,Food,22000,cash,Grocery refill,Monday,1,False,-22000
 2026-01-05,expense,Shopping,40000,card,Clothes,Monday,1,False,-40000
+2026-01-06,expense,Bills,162683,online,Internet subscription,Tuesday,1,False,-162683
+2026-01-06,expense,Transport,10989,card,Parking,Tuesday,1,False,-10989
+2026-01-06,expense,Shopping,10112,card,Personal items,Tuesday,1,False,-10112
 2026-01-06,expense,Transport,6000,cash,Taxi,Tuesday,1,False,-6000
 2026-01-06,expense,Bills,15000,online,Streaming subscription,Tuesday,1,False,-15000
-2026-01-07,expense,Food,14000,cash,Lunch,Wednesday,1,False,-14000
 2026-01-07,income,Income,75000,cash,Side job,Wednesday,1,False,75000
+2026-01-07,expense,Bills,72549,cash,Rent share,Wednesday,1,False,-72549
+2026-01-07,expense,Food,31189,cash,Snacks,Wednesday,1,False,-31189
+2026-01-07,expense,Food,14000,cash,Lunch,Wednesday,1,False,-14000
+2026-01-08,expense,Shopping,28464,transfer,House supplies,Thursday,2,False,-28464
+2026-01-08,expense,Food,42170,cash,Coffee,Thursday,2,False,-42170
+2026-01-08,expense,Bills,116381,card,Water bill,Thursday,2,False,-116381
 2026-01-08,expense,Transport,9000,cash,Fuel,Thursday,2,False,-9000
 2026-01-08,expense,Shopping,18000,cash,Stationery,Thursday,2,False,-18000
+2026-01-09,expense,Transport,24419,transfer,Taxi ride,Friday,2,False,-24419
+2026-01-09,expense,Transport,11185,transfer,Bus fare,Friday,2,False,-11185
+2026-01-09,expense,Bills,38454,cash,Mobile recharge,Friday,2,False,-38454
+2026-01-09,expense,Food,64858,card,Coffee,Friday,2,False,-64858
 2026-01-09,expense,Food,26000,cash,Family groceries,Friday,2,False,-26000
 2026-01-09,expense,Bills,50000,transfer,Electricity bill,Friday,2,False,-50000
+2026-01-10,expense,Shopping,8554,cash,Personal items,Saturday,2,True,-8554
+2026-01-10,expense,Transport,14324,cash,Parking,Saturday,2,True,-14324
+2026-01-10,expense,Food,34536,cash,Grocery items,Saturday,2,True,-34536
+2026-01-10,expense,Food,41361,cash,Grocery items,Saturday,2,True,-41361
 2026-01-10,expense,Transport,4000,cash,Bus fare,Saturday,2,True,-4000
 2026-01-10,expense,Food,11000,cash,Snacks,Saturday,2,True,-11000
+2026-01-11,expense,Food,44018,cash,Snacks,Sunday,2,True,-44018
+2026-01-11,expense,Bills,132652,cash,Electricity bill,Sunday,2,True,-132652
+2026-01-11,expense,Shopping,29085,cash,Clothes,Sunday,2,True,-29085
 2026-01-11,expense,Shopping,65000,card,Small electronics,Sunday,2,True,-65000
 2026-01-11,expense,Bills,20000,transfer,Water bill,Sunday,2,True,-20000
+2026-01-12,expense,Bills,87428,cash,Water bill,Monday,2,False,-87428
+2026-01-12,expense,Food,51313,transfer,Vegetables & fruits,Monday,2,False,-51313
+2026-01-12,expense,Transport,27609,cash,Car maintenance,Monday,2,False,-27609
+2026-01-12,expense,Shopping,34769,online,House supplies,Monday,2,False,-34769
 2026-01-12,expense,Food,17000,cash,Grocery items,Monday,2,False,-17000
 2026-01-12,expense,Transport,7000,cash,Taxi,Monday,2,False,-7000
 2026-01-13,income,Income,50000,transfer,Refund,Tuesday,2,False,50000
+2026-01-13,expense,Transport,18768,transfer,Taxi ride,Tuesday,2,False,-18768
+2026-01-13,expense,Transport,8066,transfer,Bus fare,Tuesday,2,False,-8066
+2026-01-13,expense,Food,36597,cash,Coffee,Tuesday,2,False,-36597
 2026-01-13,expense,Shopping,23000,cash,Gift,Tuesday,2,False,-23000
+2026-01-14,expense,Shopping,65915,transfer,House supplies,Wednesday,2,False,-65915
+2026-01-14,expense,Food,20982,cash,Restaurant meal,Wednesday,2,False,-20982
 2026-01-14,expense,Food,15000,cash,Dinner,Wednesday,2,False,-15000
 2026-01-14,expense,Bills,10000,online,Cloud storage,Wednesday,2,False,-10000
+2026-01-15,expense,Shopping,40612,cash,Electronics accessory,Thursday,3,False,-40612
+2026-01-15,expense,Food,22864,cash,Coffee,Thursday,3,False,-22864
 2026-01-15,expense,Transport,12000,cash,Fuel,Thursday,3,False,-12000
 2026-01-15,expense,Food,19000,cash,Grocery items,Thursday,3,False,-19000
+2026-01-16,expense,Food,58226,card,Snacks,Friday,3,False,-58226
+2026-01-16,expense,Food,36673,cash,Grocery items,Friday,3,False,-36673
+2026-01-17,expense,Shopping,127901,cash,Clothes,Saturday,3,True,-127901
+2026-01-17,expense,Bills,44931,cash,Internet subscription,Saturday,3,True,-44931
+2026-01-17,expense,Food,39125,cash,Vegetables & fruits,Saturday,3,True,-39125
+2026-01-17,expense,Transport,19103,cash,Taxi ride,Saturday,3,True,-19103
+2026-01-18,expense,Bills,168405,cash,Mobile recharge,Sunday,3,True,-168405
+2026-01-18,expense,Shopping,123800,transfer,House supplies,Sunday,3,True,-123800
+2026-01-18,expense,Food,4082,cash,Grocery items,Sunday,3,True,-4082
+2026-01-19,expense,Food,33709,cash,Restaurant meal,Monday,3,False,-33709
+2026-01-19,expense,Food,27266,cash,Restaurant meal,Monday,3,False,-27266
+2026-01-19,expense,Transport,18807,cash,Car maintenance,Monday,3,False,-18807
+2026-01-19,expense,Shopping,79615,transfer,Electronics accessory,Monday,3,False,-79615
+2026-01-20,expense,Food,6353,card,Snacks,Tuesday,3,False,-6353
+2026-01-20,expense,Food,9345,cash,Restaurant meal,Tuesday,3,False,-9345
+2026-01-20,expense,Food,64210,cash,Coffee,Tuesday,3,False,-64210
+2026-01-21,expense,Food,13339,cash,Vegetables & fruits,Wednesday,3,False,-13339
+2026-01-21,expense,Bills,138800,card,Internet subscription,Wednesday,3,False,-138800
+2026-01-22,expense,Shopping,58332,transfer,Gifts,Thursday,4,False,-58332
+2026-01-22,expense,Bills,150587,cash,Rent share,Thursday,4,False,-150587
+2026-01-22,expense,Shopping,29851,cash,Gifts,Thursday,4,False,-29851
+2026-01-22,expense,Shopping,97274,cash,Electronics accessory,Thursday,4,False,-97274
+2026-01-23,expense,Bills,152057,transfer,Mobile recharge,Friday,4,False,-152057
+2026-01-23,expense,Shopping,131588,card,Personal items,Friday,4,False,-131588
+2026-01-23,expense,Food,38985,cash,Vegetables & fruits,Friday,4,False,-38985
+2026-01-23,expense,Bills,50930,online,Electricity bill,Friday,4,False,-50930
+2026-01-24,expense,Bills,148072,cash,Mobile recharge,Saturday,4,True,-148072
+2026-01-24,expense,Bills,96788,card,Internet subscription,Saturday,4,True,-96788
+2026-01-25,expense,Food,35156,cash,Snacks,Sunday,4,True,-35156
+2026-01-25,expense,Bills,56041,cash,Water bill,Sunday,4,True,-56041
+2026-01-25,expense,Food,35203,cash,Grocery items,Sunday,4,True,-35203
+2026-01-25,expense,Shopping,107173,cash,Clothes,Sunday,4,True,-107173
+2026-01-26,expense,Food,18429,online,Grocery items,Monday,4,False,-18429
+2026-01-26,expense,Food,33081,cash,Restaurant meal,Monday,4,False,-33081
+2026-01-26,expense,Shopping,49404,cash,Clothes,Monday,4,False,-49404
+2026-01-27,expense,Transport,24120,cash,Car maintenance,Tuesday,4,False,-24120
+2026-01-27,expense,Transport,28316,online,Bus fare,Tuesday,4,False,-28316
+2026-01-27,expense,Bills,130505,transfer,Mobile recharge,Tuesday,4,False,-130505
+2026-01-28,expense,Transport,4927,cash,Parking,Wednesday,4,False,-4927
+2026-01-28,expense,Bills,101166,card,Rent share,Wednesday,4,False,-101166
+2026-01-28,expense,Food,29522,cash,Restaurant meal,Wednesday,4,False,-29522
+2026-01-28,expense,Bills,131660,online,Rent share,Wednesday,4,False,-131660
+2026-01-29,expense,Transport,5580,cash,Taxi ride,Thursday,5,False,-5580
+2026-01-29,expense,Bills,28610,cash,Internet subscription,Thursday,5,False,-28610
+2026-01-29,expense,Food,38302,cash,Snacks,Thursday,5,False,-38302
+2026-01-30,expense,Bills,45371,cash,Internet subscription,Friday,5,False,-45371
+2026-01-30,expense,Transport,4148,cash,Fuel,Friday,5,False,-4148
+2026-01-30,expense,Food,20659,cash,Grocery items,Friday,5,False,-20659
+2026-01-31,expense,Bills,128245,cash,Rent share,Saturday,5,True,-128245
+2026-01-31,expense,Shopping,26157,cash,Clothes,Saturday,5,True,-26157
+2026-01-31,expense,Bills,34547,cash,Electricity bill,Saturday,5,True,-34547

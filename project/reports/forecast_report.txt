@@ -1,0 +1,20 @@
+Forecast 2 Report
+=================
+Generated at: 2026-02-03 18:54:25
+Mode: DAILY -> Next week = sum of next 7 daily predictions
+Daily points (raw): 396
+Daily points (after features): 389
+
+Model comparison (sorted by MAE):
+            model      mae_mean      mae_std                      method
+Ridge(alpha=10.0) 128291.675566 12615.185678 TimeSeriesSplit(n_splits=3)
+ Ridge(alpha=1.0) 128794.531937 13335.010587 TimeSeriesSplit(n_splits=3)
+ Lasso(alpha=0.1) 128929.646895 13528.661026 TimeSeriesSplit(n_splits=3)
+Lasso(alpha=0.01) 128929.662341 13528.693065 TimeSeriesSplit(n_splits=3)
+
+Best model: Ridge(alpha=10.0)
+Best MAE: 128291.6756
+
+Next week predicted total: -659238.52
+Saved: models_comparison.csv
+Saved: forecast_next_week.csv
