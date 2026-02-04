@@ -1,3 +1,8 @@
+# Smart Expenses Project
+
+An end-to-end data analysis and forecasting project that covers
+data cleaning, reporting dashboards, and weekly expense forecasting.
+
 # Week 3 — Day 16: Project Expenses (Clean CSV + Weekly Summary)
 
 This task cleans the raw expenses dataset and produces:
