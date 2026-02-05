@@ -1,0 +1,6 @@
+id,name,age,department,salary
+1,Ali,25,IT,800
+2,Sara,30,HR,700
+3,Hassan,28,Finance,750
+4,Zainab,35,IT,900
+5,Omar,NaN,HR,650
