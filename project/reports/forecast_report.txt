@@ -18,3 +18,7 @@ Best MAE: 128291.6756
 Next week predicted total: -659238.52
 Saved: models_comparison.csv
 Saved: forecast_next_week.csv
+
+Exports reviewed and finalized.
+Files location: reports/
+Date: 2026-02-08
