@@ -349,3 +349,9 @@ Open and run:
 From inside `project/`:
 ```bash
 python src/forecast2.py
+
+------------------------
+
+# Week 4 — Day 26: Streamlit
+
+Prototype Streamlit app for uploading, viewing, plotting, and downloading CSV expense data.
