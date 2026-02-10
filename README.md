@@ -8,3 +8,4 @@ A practical learning project to build data and automation skills using Python.
 
 ## Progress
 - Day 01: NumPy Basics ✅
+

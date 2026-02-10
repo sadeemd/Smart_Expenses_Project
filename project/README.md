@@ -355,3 +355,9 @@ python src/forecast2.py
 # Week 4 — Day 26: Streamlit
 
 Prototype Streamlit app for uploading, viewing, plotting, and downloading CSV expense data.
+
+
+------------------------
+
+See CHANGELOG.md for bug fixes and improvements.
+Dashboard analysis is available in reports/dashboard_analysis.ipynb

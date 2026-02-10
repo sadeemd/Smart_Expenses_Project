@@ -14,7 +14,7 @@ if uploaded_file is not None:
     # عرض الجدول
     st.subheader("Data Preview")
     st.dataframe(df)
-
+s
     # اختيار عمود رقمي للرسم
     numeric_columns = df.select_dtypes(include="number").columns
 
